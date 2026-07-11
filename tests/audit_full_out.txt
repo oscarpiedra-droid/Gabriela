@@ -1,0 +1,1172 @@
+﻿================================================================================
+SECCI├ôN A: PORTES ABRIL 2026 ÔÇö Verificaci├│n SHIPPING_GROUPS
+================================================================================
+
+  G1_GENERAL:
+    [OK]  bucket=A min=1500 max=999999 ÔåÆ 0.0Ôé¼
+    [OK]  bucket=B min=1500 max=999999 ÔåÆ 0.0Ôé¼
+    [OK]  bucket=A min=500 max=1500 ÔåÆ 110.0Ôé¼
+    [OK]  bucket=B min=500 max=1500 ÔåÆ 140.0Ôé¼
+    [OK]  bucket=A min=0 max=500 ÔåÆ 60.0Ôé¼
+    [OK]  bucket=B min=0 max=500 ÔåÆ 110.0Ôé¼
+
+  G2_CM_XPS:
+    [OK]  bucket=A min=3000 max=999999 ÔåÆ 0.0Ôé¼
+    [OK]  bucket=B min=3000 max=999999 ÔåÆ 0.0Ôé¼
+    [OK]  bucket=A min=0 max=3000 ÔåÆ 110.0Ôé¼
+    [OK]  bucket=B min=0 max=3000 ÔåÆ 140.0Ôé¼
+
+  G3_ACUSTICA_AGLO:
+    [OK]  bucket=A min=3000 max=999999 ÔåÆ 0.0Ôé¼
+    [OK]  bucket=B min=3000 max=999999 ÔåÆ 0.0Ôé¼
+    [OK]  bucket=A min=0 max=3000 ÔåÆ 90.0Ôé¼
+    [OK]  bucket=B min=0 max=3000 ÔåÆ 120.0Ôé¼
+
+  G4_ANTIIMPACTO_NO_SOUND:
+    [OK]  bucket=C min=3000 max=999999 ÔåÆ 0.0Ôé¼
+    [OK]  bucket=C min=500 max=3000 ÔåÆ 140.0Ôé¼
+    [OK]  bucket=C min=0 max=500 ÔåÆ 110.0Ôé¼
+    [OK]  bucket=D min=3000 max=999999 ÔåÆ 0.0Ôé¼
+    [OK]  bucket=D min=500 max=3000 ÔåÆ 200.0Ôé¼
+    [OK]  bucket=D min=0 max=500 ÔåÆ 180.0Ôé¼
+
+  G5_SOUND:
+    [OK]  bucket=A min=1500 max=999999 ÔåÆ 0.0Ôé¼
+    [OK]  bucket=B min=1500 max=999999 ÔåÆ 0.0Ôé¼
+    [OK]  bucket=A min=0 max=1500 ÔåÆ 60.0Ôé¼
+    [OK]  bucket=B min=0 max=1500 ÔåÆ 110.0Ôé¼
+
+  PORTES: 24 OK / 0 ERR
+
+================================================================================
+SECCI├ôN B: DESCUENTOS ÔÇö Auditor├¡a celda├ùcelda (todos los SKUs)
+================================================================================
+
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+  Seg: Almacenes Especialistas (PYL) [ALMACENES_ESPECIALISTAS_PYL]
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    [OK ] F018 AC├ÜSTICA                            Tramo=6000       SKU=11.000       T=57.0% B=52.0%
+    [OK ] F018 AC├ÜSTICA                            Tramo=6000       SKU=11.001       T=57.0% B=52.0%
+    [OK ] F018 AC├ÜSTICA                            Tramo=6000       SKU=11.001b      T=57.0% B=52.0%
+    [OK ] F018 AC├ÜSTICA                            Tramo=6000       SKU=11.002       T=57.0% B=52.0%
+    [OK ] F018 AC├ÜSTICA                            Tramo=6000       SKU=11.003       T=57.0% B=52.0%
+    [OK ] F018 AC├ÜSTICA                            Tramo=6000       SKU=11.004       T=57.0% B=52.0%
+    [OK ] F018 AC├ÜSTICA                            Tramo=6000       SKU=11.005       T=57.0% B=52.0%
+    [OK ] F018 AC├ÜSTICA                            Tramo=6000       SKU=11.006       T=57.0% B=52.0%
+    [OK ] F019 AC├ÜSTICA                            Tramo=3000       SKU=11.000       T=55.0% B=50.0%
+    [OK ] F019 AC├ÜSTICA                            Tramo=3000       SKU=11.001       T=55.0% B=50.0%
+    [OK ] F019 AC├ÜSTICA                            Tramo=3000       SKU=11.001b      T=55.0% B=50.0%
+    [OK ] F019 AC├ÜSTICA                            Tramo=3000       SKU=11.002       T=55.0% B=50.0%
+    [OK ] F019 AC├ÜSTICA                            Tramo=3000       SKU=11.003       T=55.0% B=50.0%
+    [OK ] F019 AC├ÜSTICA                            Tramo=3000       SKU=11.004       T=55.0% B=50.0%
+    [OK ] F019 AC├ÜSTICA                            Tramo=3000       SKU=11.005       T=55.0% B=50.0%
+    [OK ] F019 AC├ÜSTICA                            Tramo=3000       SKU=11.006       T=55.0% B=50.0%
+    [OK ] F020 AC├ÜSTICA                            Tramo=1500       SKU=11.000       T=50.0% B=45.0%
+    [OK ] F020 AC├ÜSTICA                            Tramo=1500       SKU=11.001       T=50.0% B=45.0%
+    [OK ] F020 AC├ÜSTICA                            Tramo=1500       SKU=11.001b      T=50.0% B=45.0%
+    [OK ] F020 AC├ÜSTICA                            Tramo=1500       SKU=11.002       T=50.0% B=45.0%
+    [OK ] F020 AC├ÜSTICA                            Tramo=1500       SKU=11.003       T=50.0% B=45.0%
+    [OK ] F020 AC├ÜSTICA                            Tramo=1500       SKU=11.004       T=50.0% B=45.0%
+    [OK ] F020 AC├ÜSTICA                            Tramo=1500       SKU=11.005       T=50.0% B=45.0%
+    [OK ] F020 AC├ÜSTICA                            Tramo=1500       SKU=11.006       T=50.0% B=45.0%
+    [OK ] F021 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.000       T=47.0% B=42.0%
+    [OK ] F021 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.001       T=47.0% B=42.0%
+    [OK ] F021 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.001b      T=47.0% B=42.0%
+    [OK ] F021 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.002       T=47.0% B=42.0%
+    [OK ] F021 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.003       T=47.0% B=42.0%
+    [OK ] F021 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.004       T=47.0% B=42.0%
+    [OK ] F021 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.005       T=47.0% B=42.0%
+    [OK ] F021 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.006       T=47.0% B=42.0%
+    [OK ] F022 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.001       T=57.0% B=52.0%
+    [OK ] F022 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.002       T=57.0% B=52.0%
+    [OK ] F022 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.003       T=57.0% B=52.0%
+    [OK ] F022 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.004       T=57.0% B=52.0%
+    [OK ] F023 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.001       T=55.0% B=50.0%
+    [OK ] F023 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.002       T=55.0% B=50.0%
+    [OK ] F023 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.003       T=55.0% B=50.0%
+    [OK ] F023 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.004       T=55.0% B=50.0%
+    [OK ] F024 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.001       T=50.0% B=45.0%
+    [OK ] F024 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.002       T=50.0% B=45.0%
+    [OK ] F024 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.003       T=50.0% B=45.0%
+    [OK ] F024 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.004       T=50.0% B=45.0%
+    [OK ] F025 ANTI IMPACTO (NO SOUND)             Tramo=< 1.500 Ôé¼  SKU=12.001       T=47.0% B=42.0%
+    [OK ] F025 ANTI IMPACTO (NO SOUND)             Tramo=< 1.500 Ôé¼  SKU=12.002       T=47.0% B=42.0%
+    [OK ] F025 ANTI IMPACTO (NO SOUND)             Tramo=< 1.500 Ôé¼  SKU=12.003       T=47.0% B=42.0%
+    [OK ] F025 ANTI IMPACTO (NO SOUND)             Tramo=< 1.500 Ôé¼  SKU=12.004       T=47.0% B=42.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.001       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.002       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.003       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.004       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.005       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.006       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.007       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.008       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.009       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.010       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.011       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.012       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.013       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.016       T=55.0% B=50.0%
+    [OK ] F026 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.017       T=55.0% B=50.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.001       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.002       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.003       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.004       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.005       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.006       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.007       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.008       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.009       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.010       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.011       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.012       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.013       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.016       T=52.0% B=47.0%
+    [OK ] F027 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.017       T=52.0% B=47.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.001       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.002       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.003       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.004       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.005       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.006       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.007       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.008       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.009       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.010       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.011       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.012       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.013       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.016       T=50.0% B=45.0%
+    [OK ] F028 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.017       T=50.0% B=45.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.001       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.002       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.003       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.004       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.005       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.006       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.007       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.008       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.009       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.010       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.011       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.012       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.013       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.016       T=47.0% B=42.0%
+    [OK ] F029 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.017       T=47.0% B=42.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.001       T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.001-1     T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.001-2     T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.003       T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.004       T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.005       T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.006       T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.007       T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.008       T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.008-1     T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.009       T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.011       T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.012       T=55.0% B=50.0%
+    [OK ] F030 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.015       T=55.0% B=50.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.001       T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.001-1     T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.001-2     T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.003       T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.004       T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.005       T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.006       T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.007       T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.008       T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.008-1     T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.009       T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.011       T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.012       T=52.0% B=47.0%
+    [OK ] F031 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.015       T=52.0% B=47.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.001       T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.001-1     T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.001-2     T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.003       T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.004       T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.005       T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.006       T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.007       T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.008       T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.008-1     T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.009       T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.011       T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.012       T=50.0% B=45.0%
+    [OK ] F032 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.015       T=50.0% B=45.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.001       T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.001-1     T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.001-2     T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.003       T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.004       T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.005       T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.006       T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.007       T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.008       T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.008-1     T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.009       T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.011       T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.012       T=45.0% B=40.0%
+    [OK ] F033 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.015       T=45.0% B=40.0%
+    [OK ] F034 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002       T=55.0% B=50.0%
+    [OK ] F034 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-1     T=55.0% B=50.0%
+    [OK ] F034 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-2     T=55.0% B=50.0%
+    [OK ] F034 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-3     T=55.0% B=50.0%
+    [OK ] F034 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-4     T=55.0% B=50.0%
+    [OK ] F035 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002       T=52.0% B=47.0%
+    [OK ] F035 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-1     T=52.0% B=47.0%
+    [OK ] F035 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-2     T=52.0% B=47.0%
+    [OK ] F035 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-3     T=52.0% B=47.0%
+    [OK ] F035 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-4     T=52.0% B=47.0%
+    [OK ] F036 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002       T=50.0% B=45.0%
+    [OK ] F036 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002-1     T=50.0% B=45.0%
+    [OK ] F036 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002-2     T=50.0% B=45.0%
+    [OK ] F036 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002-3     T=50.0% B=45.0%
+    [OK ] F036 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002-4     T=50.0% B=45.0%
+    [OK ] F037 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002       T=45.0% B=40.0%
+    [OK ] F037 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002-1     T=45.0% B=40.0%
+    [OK ] F037 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002-2     T=45.0% B=40.0%
+    [OK ] F037 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002-3     T=45.0% B=40.0%
+    [OK ] F037 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002-4     T=45.0% B=40.0%
+  [SERV] Almacenes Especialistas (PYL)  FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+  [SERV] Almacenes Especialistas (PYL)  FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+  [SERV] Almacenes Especialistas (PYL)  FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+  [SERV] Almacenes Especialistas (PYL)  FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+
+
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+  Seg: Almacenes Generalistas [ALMACENES_GENERALISTAS]
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    [OK ] F042 AC├ÜSTICA                            Tramo=6000       SKU=11.000       T=55.0% B=50.0%
+    [OK ] F042 AC├ÜSTICA                            Tramo=6000       SKU=11.001       T=55.0% B=50.0%
+    [OK ] F042 AC├ÜSTICA                            Tramo=6000       SKU=11.001b      T=55.0% B=50.0%
+    [OK ] F042 AC├ÜSTICA                            Tramo=6000       SKU=11.002       T=55.0% B=50.0%
+    [OK ] F042 AC├ÜSTICA                            Tramo=6000       SKU=11.003       T=55.0% B=50.0%
+    [OK ] F042 AC├ÜSTICA                            Tramo=6000       SKU=11.004       T=55.0% B=50.0%
+    [OK ] F042 AC├ÜSTICA                            Tramo=6000       SKU=11.005       T=55.0% B=50.0%
+    [OK ] F042 AC├ÜSTICA                            Tramo=6000       SKU=11.006       T=55.0% B=50.0%
+    [OK ] F043 AC├ÜSTICA                            Tramo=3000       SKU=11.000       T=52.0% B=47.0%
+    [OK ] F043 AC├ÜSTICA                            Tramo=3000       SKU=11.001       T=52.0% B=47.0%
+    [OK ] F043 AC├ÜSTICA                            Tramo=3000       SKU=11.001b      T=52.0% B=47.0%
+    [OK ] F043 AC├ÜSTICA                            Tramo=3000       SKU=11.002       T=52.0% B=47.0%
+    [OK ] F043 AC├ÜSTICA                            Tramo=3000       SKU=11.003       T=52.0% B=47.0%
+    [OK ] F043 AC├ÜSTICA                            Tramo=3000       SKU=11.004       T=52.0% B=47.0%
+    [OK ] F043 AC├ÜSTICA                            Tramo=3000       SKU=11.005       T=52.0% B=47.0%
+    [OK ] F043 AC├ÜSTICA                            Tramo=3000       SKU=11.006       T=52.0% B=47.0%
+    [OK ] F044 AC├ÜSTICA                            Tramo=1500       SKU=11.000       T=50.0% B=45.0%
+    [OK ] F044 AC├ÜSTICA                            Tramo=1500       SKU=11.001       T=50.0% B=45.0%
+    [OK ] F044 AC├ÜSTICA                            Tramo=1500       SKU=11.001b      T=50.0% B=45.0%
+    [OK ] F044 AC├ÜSTICA                            Tramo=1500       SKU=11.002       T=50.0% B=45.0%
+    [OK ] F044 AC├ÜSTICA                            Tramo=1500       SKU=11.003       T=50.0% B=45.0%
+    [OK ] F044 AC├ÜSTICA                            Tramo=1500       SKU=11.004       T=50.0% B=45.0%
+    [OK ] F044 AC├ÜSTICA                            Tramo=1500       SKU=11.005       T=50.0% B=45.0%
+    [OK ] F044 AC├ÜSTICA                            Tramo=1500       SKU=11.006       T=50.0% B=45.0%
+    [OK ] F045 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.000       T=47.0% B=42.0%
+    [OK ] F045 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.001       T=47.0% B=42.0%
+    [OK ] F045 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.001b      T=47.0% B=42.0%
+    [OK ] F045 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.002       T=47.0% B=42.0%
+    [OK ] F045 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.003       T=47.0% B=42.0%
+    [OK ] F045 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.004       T=47.0% B=42.0%
+    [OK ] F045 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.005       T=47.0% B=42.0%
+    [OK ] F045 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.006       T=47.0% B=42.0%
+    [OK ] F046 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.001       T=57.0% B=52.0%
+    [OK ] F046 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.002       T=57.0% B=52.0%
+    [OK ] F046 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.003       T=57.0% B=52.0%
+    [OK ] F046 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.004       T=57.0% B=52.0%
+    [OK ] F047 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.001       T=55.0% B=50.0%
+    [OK ] F047 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.002       T=55.0% B=50.0%
+    [OK ] F047 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.003       T=55.0% B=50.0%
+    [OK ] F047 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.004       T=55.0% B=50.0%
+    [OK ] F048 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.001       T=50.0% B=45.0%
+    [OK ] F048 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.002       T=50.0% B=45.0%
+    [OK ] F048 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.003       T=50.0% B=45.0%
+    [OK ] F048 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.004       T=50.0% B=45.0%
+    [OK ] F049 ANTI IMPACTO (NO SOUND)             Tramo=< 1.500 Ôé¼  SKU=12.001       T=47.0% B=42.0%
+    [OK ] F049 ANTI IMPACTO (NO SOUND)             Tramo=< 1.500 Ôé¼  SKU=12.002       T=47.0% B=42.0%
+    [OK ] F049 ANTI IMPACTO (NO SOUND)             Tramo=< 1.500 Ôé¼  SKU=12.003       T=47.0% B=42.0%
+    [OK ] F049 ANTI IMPACTO (NO SOUND)             Tramo=< 1.500 Ôé¼  SKU=12.004       T=47.0% B=42.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.001       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.002       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.003       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.004       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.005       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.006       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.007       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.008       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.009       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.010       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.011       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.012       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.013       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.016       T=57.0% B=52.0%
+    [OK ] F050 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.017       T=57.0% B=52.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.001       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.002       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.003       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.004       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.005       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.006       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.007       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.008       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.009       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.010       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.011       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.012       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.013       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.016       T=55.0% B=50.0%
+    [OK ] F051 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.017       T=55.0% B=50.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.001       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.002       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.003       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.004       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.005       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.006       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.007       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.008       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.009       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.010       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.011       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.012       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.013       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.016       T=50.0% B=45.0%
+    [OK ] F052 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.017       T=50.0% B=45.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.001       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.002       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.003       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.004       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.005       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.006       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.007       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.008       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.009       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.010       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.011       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.012       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.013       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.016       T=47.0% B=42.0%
+    [OK ] F053 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.017       T=47.0% B=42.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.001       T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.001-1     T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.001-2     T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.003       T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.004       T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.005       T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.006       T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.007       T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.008       T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.008-1     T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.009       T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.011       T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.012       T=57.0% B=52.0%
+    [OK ] F054 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.015       T=57.0% B=52.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.001       T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.001-1     T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.001-2     T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.003       T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.004       T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.005       T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.006       T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.007       T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.008       T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.008-1     T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.009       T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.011       T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.012       T=55.0% B=50.0%
+    [OK ] F055 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.015       T=55.0% B=50.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.001       T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.001-1     T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.001-2     T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.003       T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.004       T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.005       T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.006       T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.007       T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.008       T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.008-1     T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.009       T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.011       T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.012       T=50.0% B=45.0%
+    [OK ] F056 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=1500       SKU=01.015       T=50.0% B=45.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.001       T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.001-1     T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.001-2     T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.003       T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.004       T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.005       T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.006       T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.007       T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.008       T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.008-1     T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.009       T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.011       T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.012       T=47.0% B=42.0%
+    [OK ] F057 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 1.500 Ôé¼  SKU=01.015       T=47.0% B=42.0%
+    [OK ] F058 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002       T=55.0% B=50.0%
+    [OK ] F058 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-1     T=55.0% B=50.0%
+    [OK ] F058 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-2     T=55.0% B=50.0%
+    [OK ] F058 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-3     T=55.0% B=50.0%
+    [OK ] F058 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-4     T=55.0% B=50.0%
+    [OK ] F059 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002       T=52.0% B=47.0%
+    [OK ] F059 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-1     T=52.0% B=47.0%
+    [OK ] F059 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-2     T=52.0% B=47.0%
+    [OK ] F059 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-3     T=52.0% B=47.0%
+    [OK ] F059 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-4     T=52.0% B=47.0%
+    [OK ] F060 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002       T=50.0% B=45.0%
+    [OK ] F060 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002-1     T=50.0% B=45.0%
+    [OK ] F060 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002-2     T=50.0% B=45.0%
+    [OK ] F060 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002-3     T=50.0% B=45.0%
+    [OK ] F060 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002-4     T=50.0% B=45.0%
+    [OK ] F061 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002       T=45.0% B=40.0%
+    [OK ] F061 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002-1     T=45.0% B=40.0%
+    [OK ] F061 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002-2     T=45.0% B=40.0%
+    [OK ] F061 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002-3     T=45.0% B=40.0%
+    [OK ] F061 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002-4     T=45.0% B=40.0%
+  [SERV] Almacenes Generalistas         FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+  [SERV] Almacenes Generalistas         FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+  [SERV] Almacenes Generalistas         FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+  [SERV] Almacenes Generalistas         FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+
+
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+  Seg: Empresas Constructoras [EMPRESAS_CONSTRUCTORAS]
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    [OK ] F066 AC├ÜSTICA                            Tramo=8000       SKU=11.000       T=57.0% B=52.0%
+    [OK ] F066 AC├ÜSTICA                            Tramo=8000       SKU=11.001       T=57.0% B=52.0%
+    [OK ] F066 AC├ÜSTICA                            Tramo=8000       SKU=11.001b      T=57.0% B=52.0%
+    [OK ] F066 AC├ÜSTICA                            Tramo=8000       SKU=11.002       T=57.0% B=52.0%
+    [OK ] F066 AC├ÜSTICA                            Tramo=8000       SKU=11.003       T=57.0% B=52.0%
+    [OK ] F066 AC├ÜSTICA                            Tramo=8000       SKU=11.004       T=57.0% B=52.0%
+    [OK ] F066 AC├ÜSTICA                            Tramo=8000       SKU=11.005       T=57.0% B=52.0%
+    [OK ] F066 AC├ÜSTICA                            Tramo=8000       SKU=11.006       T=57.0% B=52.0%
+    [OK ] F067 AC├ÜSTICA                            Tramo=6000       SKU=11.000       T=55.0% B=50.0%
+    [OK ] F067 AC├ÜSTICA                            Tramo=6000       SKU=11.001       T=55.0% B=50.0%
+    [OK ] F067 AC├ÜSTICA                            Tramo=6000       SKU=11.001b      T=55.0% B=50.0%
+    [OK ] F067 AC├ÜSTICA                            Tramo=6000       SKU=11.002       T=55.0% B=50.0%
+    [OK ] F067 AC├ÜSTICA                            Tramo=6000       SKU=11.003       T=55.0% B=50.0%
+    [OK ] F067 AC├ÜSTICA                            Tramo=6000       SKU=11.004       T=55.0% B=50.0%
+    [OK ] F067 AC├ÜSTICA                            Tramo=6000       SKU=11.005       T=55.0% B=50.0%
+    [OK ] F067 AC├ÜSTICA                            Tramo=6000       SKU=11.006       T=55.0% B=50.0%
+    [OK ] F068 AC├ÜSTICA                            Tramo=3000       SKU=11.000       T=52.0% B=47.0%
+    [OK ] F068 AC├ÜSTICA                            Tramo=3000       SKU=11.001       T=52.0% B=47.0%
+    [OK ] F068 AC├ÜSTICA                            Tramo=3000       SKU=11.001b      T=52.0% B=47.0%
+    [OK ] F068 AC├ÜSTICA                            Tramo=3000       SKU=11.002       T=52.0% B=47.0%
+    [OK ] F068 AC├ÜSTICA                            Tramo=3000       SKU=11.003       T=52.0% B=47.0%
+    [OK ] F068 AC├ÜSTICA                            Tramo=3000       SKU=11.004       T=52.0% B=47.0%
+    [OK ] F068 AC├ÜSTICA                            Tramo=3000       SKU=11.005       T=52.0% B=47.0%
+    [OK ] F068 AC├ÜSTICA                            Tramo=3000       SKU=11.006       T=52.0% B=47.0%
+    [OK ] F069 AC├ÜSTICA                            Tramo=1500       SKU=11.000       T=50.0% B=45.0%
+    [OK ] F069 AC├ÜSTICA                            Tramo=1500       SKU=11.001       T=50.0% B=45.0%
+    [OK ] F069 AC├ÜSTICA                            Tramo=1500       SKU=11.001b      T=50.0% B=45.0%
+    [OK ] F069 AC├ÜSTICA                            Tramo=1500       SKU=11.002       T=50.0% B=45.0%
+    [OK ] F069 AC├ÜSTICA                            Tramo=1500       SKU=11.003       T=50.0% B=45.0%
+    [OK ] F069 AC├ÜSTICA                            Tramo=1500       SKU=11.004       T=50.0% B=45.0%
+    [OK ] F069 AC├ÜSTICA                            Tramo=1500       SKU=11.005       T=50.0% B=45.0%
+    [OK ] F069 AC├ÜSTICA                            Tramo=1500       SKU=11.006       T=50.0% B=45.0%
+    [OK ] F070 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.000       T=45.0% B=40.0%
+    [OK ] F070 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.001       T=45.0% B=40.0%
+    [OK ] F070 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.001b      T=45.0% B=40.0%
+    [OK ] F070 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.002       T=45.0% B=40.0%
+    [OK ] F070 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.003       T=45.0% B=40.0%
+    [OK ] F070 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.004       T=45.0% B=40.0%
+    [OK ] F070 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.005       T=45.0% B=40.0%
+    [OK ] F070 AC├ÜSTICA                            Tramo=< 1.500 Ôé¼  SKU=11.006       T=45.0% B=40.0%
+    [OK ] F071 ANTI IMPACTO (NO SOUND)             Tramo=8000       SKU=12.001       T=60.0% B=55.0%
+    [OK ] F071 ANTI IMPACTO (NO SOUND)             Tramo=8000       SKU=12.002       T=60.0% B=55.0%
+    [OK ] F071 ANTI IMPACTO (NO SOUND)             Tramo=8000       SKU=12.003       T=60.0% B=55.0%
+    [OK ] F071 ANTI IMPACTO (NO SOUND)             Tramo=8000       SKU=12.004       T=60.0% B=55.0%
+    [OK ] F072 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.001       T=57.0% B=52.0%
+    [OK ] F072 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.002       T=57.0% B=52.0%
+    [OK ] F072 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.003       T=57.0% B=52.0%
+    [OK ] F072 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.004       T=57.0% B=52.0%
+    [OK ] F073 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.001       T=55.0% B=50.0%
+    [OK ] F073 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.002       T=55.0% B=50.0%
+    [OK ] F073 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.003       T=55.0% B=50.0%
+    [OK ] F073 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.004       T=55.0% B=50.0%
+    [OK ] F074 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.001       T=50.0% B=45.0%
+    [OK ] F074 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.002       T=50.0% B=45.0%
+    [OK ] F074 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.003       T=50.0% B=45.0%
+    [OK ] F074 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.004       T=50.0% B=45.0%
+    [OK ] F075 ANTI IMPACTO (NO SOUND)             Tramo=< 1.500 Ôé¼  SKU=12.001       T=47.0% B=42.0%
+    [OK ] F075 ANTI IMPACTO (NO SOUND)             Tramo=< 1.500 Ôé¼  SKU=12.002       T=47.0% B=42.0%
+    [OK ] F075 ANTI IMPACTO (NO SOUND)             Tramo=< 1.500 Ôé¼  SKU=12.003       T=47.0% B=42.0%
+    [OK ] F075 ANTI IMPACTO (NO SOUND)             Tramo=< 1.500 Ôé¼  SKU=12.004       T=47.0% B=42.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.001       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.002       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.003       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.004       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.005       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.006       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.007       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.008       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.009       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.010       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.011       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.012       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.013       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.016       T=57.0% B=52.0%
+    [OK ] F076 IMPERMEABILIZANTES                  Tramo=8000       SKU=16.017       T=57.0% B=52.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.001       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.002       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.003       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.004       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.005       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.006       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.007       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.008       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.009       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.010       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.011       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.012       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.013       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.016       T=55.0% B=50.0%
+    [OK ] F077 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.017       T=55.0% B=50.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.001       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.002       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.003       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.004       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.005       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.006       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.007       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.008       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.009       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.010       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.011       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.012       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.013       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.016       T=52.0% B=47.0%
+    [OK ] F078 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.017       T=52.0% B=47.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.001       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.002       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.003       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.004       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.005       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.006       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.007       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.008       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.009       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.010       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.011       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.012       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.013       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.016       T=50.0% B=45.0%
+    [OK ] F079 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.017       T=50.0% B=45.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.001       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.002       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.003       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.004       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.005       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.006       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.007       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.008       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.009       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.010       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.011       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.012       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.013       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.016       T=45.0% B=40.0%
+    [OK ] F080 IMPERMEABILIZANTES                  Tramo=< 1.500 Ôé¼  SKU=16.017       T=45.0% B=40.0%
+    [OK ] F086 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=8000       SKU=01.002       T=57.0% B=52.0%
+    [OK ] F086 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=8000       SKU=01.002-1     T=57.0% B=52.0%
+    [OK ] F086 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=8000       SKU=01.002-2     T=57.0% B=52.0%
+    [OK ] F086 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=8000       SKU=01.002-3     T=57.0% B=52.0%
+    [OK ] F086 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=8000       SKU=01.002-4     T=57.0% B=52.0%
+    [OK ] F087 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002       T=55.0% B=50.0%
+    [OK ] F087 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-1     T=55.0% B=50.0%
+    [OK ] F087 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-2     T=55.0% B=50.0%
+    [OK ] F087 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-3     T=55.0% B=50.0%
+    [OK ] F087 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-4     T=55.0% B=50.0%
+    [OK ] F088 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002       T=52.0% B=47.0%
+    [OK ] F088 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-1     T=52.0% B=47.0%
+    [OK ] F088 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-2     T=52.0% B=47.0%
+    [OK ] F088 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-3     T=52.0% B=47.0%
+    [OK ] F088 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-4     T=52.0% B=47.0%
+    [OK ] F089 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002       T=50.0% B=45.0%
+    [OK ] F089 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002-1     T=50.0% B=45.0%
+    [OK ] F089 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002-2     T=50.0% B=45.0%
+    [OK ] F089 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002-3     T=50.0% B=45.0%
+    [OK ] F089 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=1500       SKU=01.002-4     T=50.0% B=45.0%
+    [OK ] F090 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002       T=45.0% B=40.0%
+    [OK ] F090 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002-1     T=45.0% B=40.0%
+    [OK ] F090 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002-2     T=45.0% B=40.0%
+    [OK ] F090 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002-3     T=45.0% B=40.0%
+    [OK ] F090 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 1.500 Ôé¼  SKU=01.002-4     T=45.0% B=40.0%
+  [SERV] Empresas Constructoras         FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+  [SERV] Empresas Constructoras         FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+  [SERV] Empresas Constructoras         FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+  [SERV] Empresas Constructoras         FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+  [SERV] Empresas Constructoras         FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+
+
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+  Seg: Empresas Instaladoras [EMPRESAS_INSTALADORAS]
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    [OK ] F096 AC├ÜSTICA                            Tramo=6000       SKU=11.000       T=57.0% B=52.0%
+    [OK ] F096 AC├ÜSTICA                            Tramo=6000       SKU=11.001       T=57.0% B=52.0%
+    [OK ] F096 AC├ÜSTICA                            Tramo=6000       SKU=11.001b      T=57.0% B=52.0%
+    [OK ] F096 AC├ÜSTICA                            Tramo=6000       SKU=11.002       T=57.0% B=52.0%
+    [OK ] F096 AC├ÜSTICA                            Tramo=6000       SKU=11.003       T=57.0% B=52.0%
+    [OK ] F096 AC├ÜSTICA                            Tramo=6000       SKU=11.004       T=57.0% B=52.0%
+    [OK ] F096 AC├ÜSTICA                            Tramo=6000       SKU=11.005       T=57.0% B=52.0%
+    [OK ] F096 AC├ÜSTICA                            Tramo=6000       SKU=11.006       T=57.0% B=52.0%
+    [OK ] F097 AC├ÜSTICA                            Tramo=3000       SKU=11.000       T=52.0% B=47.0%
+    [OK ] F097 AC├ÜSTICA                            Tramo=3000       SKU=11.001       T=52.0% B=47.0%
+    [OK ] F097 AC├ÜSTICA                            Tramo=3000       SKU=11.001b      T=52.0% B=47.0%
+    [OK ] F097 AC├ÜSTICA                            Tramo=3000       SKU=11.002       T=52.0% B=47.0%
+    [OK ] F097 AC├ÜSTICA                            Tramo=3000       SKU=11.003       T=52.0% B=47.0%
+    [OK ] F097 AC├ÜSTICA                            Tramo=3000       SKU=11.004       T=52.0% B=47.0%
+    [OK ] F097 AC├ÜSTICA                            Tramo=3000       SKU=11.005       T=52.0% B=47.0%
+    [OK ] F097 AC├ÜSTICA                            Tramo=3000       SKU=11.006       T=52.0% B=47.0%
+    [OK ] F098 AC├ÜSTICA                            Tramo=< 3.000 Ôé¼  SKU=11.000       T=50.0% B=45.0%
+    [OK ] F098 AC├ÜSTICA                            Tramo=< 3.000 Ôé¼  SKU=11.001       T=50.0% B=45.0%
+    [OK ] F098 AC├ÜSTICA                            Tramo=< 3.000 Ôé¼  SKU=11.001b      T=50.0% B=45.0%
+    [OK ] F098 AC├ÜSTICA                            Tramo=< 3.000 Ôé¼  SKU=11.002       T=50.0% B=45.0%
+    [OK ] F098 AC├ÜSTICA                            Tramo=< 3.000 Ôé¼  SKU=11.003       T=50.0% B=45.0%
+    [OK ] F098 AC├ÜSTICA                            Tramo=< 3.000 Ôé¼  SKU=11.004       T=50.0% B=45.0%
+    [OK ] F098 AC├ÜSTICA                            Tramo=< 3.000 Ôé¼  SKU=11.005       T=50.0% B=45.0%
+    [OK ] F098 AC├ÜSTICA                            Tramo=< 3.000 Ôé¼  SKU=11.006       T=50.0% B=45.0%
+    [OK ] F099 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.001       T=60.0% B=55.0%
+    [OK ] F099 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.002       T=60.0% B=55.0%
+    [OK ] F099 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.003       T=60.0% B=55.0%
+    [OK ] F099 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.004       T=60.0% B=55.0%
+    [OK ] F100 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.001       T=57.0% B=52.0%
+    [OK ] F100 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.002       T=57.0% B=52.0%
+    [OK ] F100 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.003       T=57.0% B=52.0%
+    [OK ] F100 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.004       T=57.0% B=52.0%
+    [OK ] F101 ANTI IMPACTO (NO SOUND)             Tramo=< 3.000 Ôé¼  SKU=12.001       T=55.0% B=50.0%
+    [OK ] F101 ANTI IMPACTO (NO SOUND)             Tramo=< 3.000 Ôé¼  SKU=12.002       T=55.0% B=50.0%
+    [OK ] F101 ANTI IMPACTO (NO SOUND)             Tramo=< 3.000 Ôé¼  SKU=12.003       T=55.0% B=50.0%
+    [OK ] F101 ANTI IMPACTO (NO SOUND)             Tramo=< 3.000 Ôé¼  SKU=12.004       T=55.0% B=50.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.001       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.002       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.003       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.004       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.005       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.006       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.007       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.008       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.009       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.010       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.011       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.012       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.013       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.016       T=60.0% B=55.0%
+    [OK ] F102 IMPERMEABILIZANTES                  Tramo=6000       SKU=16.017       T=60.0% B=55.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.001       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.002       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.003       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.004       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.005       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.006       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.007       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.008       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.009       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.010       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.011       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.012       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.013       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.016       T=57.0% B=52.0%
+    [OK ] F103 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.017       T=57.0% B=52.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.001       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.002       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.003       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.004       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.005       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.006       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.007       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.008       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.009       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.010       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.011       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.012       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.013       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.016       T=55.0% B=50.0%
+    [OK ] F104 IMPERMEABILIZANTES                  Tramo=< 3.000 Ôé¼  SKU=16.017       T=55.0% B=50.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.001       T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.001-1     T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.001-2     T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.003       T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.004       T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.005       T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.006       T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.007       T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.008       T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.008-1     T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.009       T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.011       T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.012       T=60.0% B=55.0%
+    [OK ] F105 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=6000       SKU=01.015       T=60.0% B=55.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.001       T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.001-1     T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.001-2     T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.003       T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.004       T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.005       T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.006       T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.007       T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.008       T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.008-1     T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.009       T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.011       T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.012       T=57.0% B=52.0%
+    [OK ] F106 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=3000       SKU=01.015       T=57.0% B=52.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.001       T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.001-1     T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.001-2     T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.003       T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.004       T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.005       T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.006       T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.007       T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.008       T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.008-1     T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.009       T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.011       T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.012       T=52.0% B=47.0%
+    [OK ] F107 AIR-BUR TERMIC / TERMOREFLEX (EXCL. Tramo=< 3.000 Ôé¼  SKU=01.015       T=52.0% B=47.0%
+    [OK ] F108 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002       T=60.0% B=55.0%
+    [OK ] F108 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-1     T=60.0% B=55.0%
+    [OK ] F108 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-2     T=60.0% B=55.0%
+    [OK ] F108 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-3     T=60.0% B=55.0%
+    [OK ] F108 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=6000       SKU=01.002-4     T=60.0% B=55.0%
+    [OK ] F109 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002       T=55.0% B=50.0%
+    [OK ] F109 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-1     T=55.0% B=50.0%
+    [OK ] F109 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-2     T=55.0% B=50.0%
+    [OK ] F109 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-3     T=55.0% B=50.0%
+    [OK ] F109 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=3000       SKU=01.002-4     T=55.0% B=50.0%
+    [OK ] F110 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 3.000 Ôé¼  SKU=01.002       T=52.0% B=47.0%
+    [OK ] F110 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 3.000 Ôé¼  SKU=01.002-1     T=52.0% B=47.0%
+    [OK ] F110 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 3.000 Ôé¼  SKU=01.002-2     T=52.0% B=47.0%
+    [OK ] F110 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 3.000 Ôé¼  SKU=01.002-3     T=52.0% B=47.0%
+    [OK ] F110 AIR BUR TERMIC (CM XPS / S-YC)      Tramo=< 3.000 Ôé¼  SKU=01.002-4     T=52.0% B=47.0%
+  [SERV] Empresas Instaladoras          FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+  [SERV] Empresas Instaladoras          FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+  [SERV] Empresas Instaladoras          FAM=AIR BUR TERMIC (CM XPS / S-YC) +2 GAMAS  ÔåÆ via resolve_familia_excel()
+
+
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+  Seg: Almacenes e Instaladores (Gama SOUND) [ALMACENES_INSTALADORES_SOUND]
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    [OK ] F114 PARQUET                             Tramo=3000       SKU=21.001       T=58.0% B=53.0%
+    [OK ] F114 PARQUET                             Tramo=3000       SKU=21.002       T=58.0% B=53.0%
+    [OK ] F114 PARQUET                             Tramo=3000       SKU=21.003       T=58.0% B=53.0%
+    [OK ] F114 PARQUET                             Tramo=3000       SKU=21.004       T=58.0% B=53.0%
+    [OK ] F114 PARQUET                             Tramo=3000       SKU=21.005       T=58.0% B=53.0%
+    [OK ] F114 PARQUET                             Tramo=3000       SKU=21.006       T=58.0% B=53.0%
+    [OK ] F114 PARQUET                             Tramo=3000       SKU=21.008       T=58.0% B=53.0%
+    [OK ] F114 PARQUET                             Tramo=3000       SKU=21.010       T=58.0% B=53.0%
+    [OK ] F114 PARQUET                             Tramo=3000       SKU=21.012       T=58.0% B=53.0%
+    [OK ] F115 PARQUET                             Tramo=1500       SKU=21.001       T=55.0% B=50.0%
+    [OK ] F115 PARQUET                             Tramo=1500       SKU=21.002       T=55.0% B=50.0%
+    [OK ] F115 PARQUET                             Tramo=1500       SKU=21.003       T=55.0% B=50.0%
+    [OK ] F115 PARQUET                             Tramo=1500       SKU=21.004       T=55.0% B=50.0%
+    [OK ] F115 PARQUET                             Tramo=1500       SKU=21.005       T=55.0% B=50.0%
+    [OK ] F115 PARQUET                             Tramo=1500       SKU=21.006       T=55.0% B=50.0%
+    [OK ] F115 PARQUET                             Tramo=1500       SKU=21.008       T=55.0% B=50.0%
+    [OK ] F115 PARQUET                             Tramo=1500       SKU=21.010       T=55.0% B=50.0%
+    [OK ] F115 PARQUET                             Tramo=1500       SKU=21.012       T=55.0% B=50.0%
+    [OK ] F116 PARQUET                             Tramo=< 1.500 Ôé¼  SKU=21.001       T=53.0% B=48.0%
+    [OK ] F116 PARQUET                             Tramo=< 1.500 Ôé¼  SKU=21.002       T=53.0% B=48.0%
+    [OK ] F116 PARQUET                             Tramo=< 1.500 Ôé¼  SKU=21.003       T=53.0% B=48.0%
+    [OK ] F116 PARQUET                             Tramo=< 1.500 Ôé¼  SKU=21.004       T=53.0% B=48.0%
+    [OK ] F116 PARQUET                             Tramo=< 1.500 Ôé¼  SKU=21.005       T=53.0% B=48.0%
+    [OK ] F116 PARQUET                             Tramo=< 1.500 Ôé¼  SKU=21.006       T=53.0% B=48.0%
+    [OK ] F116 PARQUET                             Tramo=< 1.500 Ôé¼  SKU=21.008       T=53.0% B=48.0%
+    [OK ] F116 PARQUET                             Tramo=< 1.500 Ôé¼  SKU=21.010       T=53.0% B=48.0%
+    [OK ] F116 PARQUET                             Tramo=< 1.500 Ôé¼  SKU=21.012       T=53.0% B=48.0%
+
+
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+  Seg: Axarqu├¡a de Aislamientos (Distribuci├│n) [AXARQUIA_DE_AISLAMIENTOS_DISTRIBUCION]
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.001       T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.001-1     T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.001-2     T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.003       T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.004       T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.005       T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.006       T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.007       T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.008       T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.008-1     T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.009       T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.011       T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.012       T=56.0% B=0.0%
+    [OK ] F120 AIR-BUR TERMIC / (EXCL. CM )        Tramo=6000       SKU=01.015       T=56.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.001       T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.001-1     T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.001-2     T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.003       T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.004       T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.005       T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.006       T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.007       T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.008       T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.008-1     T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.009       T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.011       T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.012       T=55.0% B=0.0%
+    [OK ] F121 AIR-BUR TERMIC / (EXCL. CM )        Tramo=4000       SKU=01.015       T=55.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.001       T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.001-1     T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.001-2     T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.003       T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.004       T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.005       T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.006       T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.007       T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.008       T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.008-1     T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.009       T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.011       T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.012       T=54.0% B=0.0%
+    [OK ] F122 AIR-BUR TERMIC / (EXCL. CM )        Tramo=3000       SKU=01.015       T=54.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.001       T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.001-1     T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.001-2     T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.003       T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.004       T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.005       T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.006       T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.007       T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.008       T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.008-1     T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.009       T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.011       T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.012       T=53.0% B=0.0%
+    [OK ] F123 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2500       SKU=01.015       T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.001       T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.001-1     T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.001-2     T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.003       T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.004       T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.005       T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.006       T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.007       T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.008       T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.008-1     T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.009       T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.011       T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.012       T=53.0% B=0.0%
+    [OK ] F124 AIR-BUR TERMIC / (EXCL. CM )        Tramo=2000       SKU=01.015       T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.001       T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.001-1     T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.001-2     T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.003       T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.004       T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.005       T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.006       T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.007       T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.008       T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.008-1     T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.009       T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.011       T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.012       T=53.0% B=0.0%
+    [OK ] F125 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1500       SKU=01.015       T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.001       T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.001-1     T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.001-2     T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.003       T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.004       T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.005       T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.006       T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.007       T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.008       T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.008-1     T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.009       T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.011       T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.012       T=53.0% B=0.0%
+    [OK ] F126 AIR-BUR TERMIC / (EXCL. CM )        Tramo=1000       SKU=01.015       T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.001       T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.001-1     T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.001-2     T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.003       T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.004       T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.005       T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.006       T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.007       T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.008       T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.008-1     T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.009       T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.011       T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.012       T=53.0% B=0.0%
+    [OK ] F127 AIR-BUR TERMIC / (EXCL. CM )        Tramo=< 1.000 Ôé¼  SKU=01.015       T=53.0% B=0.0%
+    [OK ] F128 AIR BUR TERMIC (CM )                Tramo=6000       SKU=01.002       T=54.0% B=0.0%
+    [OK ] F128 AIR BUR TERMIC (CM )                Tramo=6000       SKU=01.002-1     T=54.0% B=0.0%
+    [OK ] F128 AIR BUR TERMIC (CM )                Tramo=6000       SKU=01.002-2     T=54.0% B=0.0%
+    [OK ] F128 AIR BUR TERMIC (CM )                Tramo=6000       SKU=01.002-3     T=54.0% B=0.0%
+    [OK ] F128 AIR BUR TERMIC (CM )                Tramo=6000       SKU=01.002-4     T=54.0% B=0.0%
+    [OK ] F129 AIR BUR TERMIC (CM )                Tramo=4000       SKU=01.002       T=53.0% B=0.0%
+    [OK ] F129 AIR BUR TERMIC (CM )                Tramo=4000       SKU=01.002-1     T=53.0% B=0.0%
+    [OK ] F129 AIR BUR TERMIC (CM )                Tramo=4000       SKU=01.002-2     T=53.0% B=0.0%
+    [OK ] F129 AIR BUR TERMIC (CM )                Tramo=4000       SKU=01.002-3     T=53.0% B=0.0%
+    [OK ] F129 AIR BUR TERMIC (CM )                Tramo=4000       SKU=01.002-4     T=53.0% B=0.0%
+    [OK ] F130 AIR BUR TERMIC (CM )                Tramo=3000       SKU=01.002       T=52.0% B=0.0%
+    [OK ] F130 AIR BUR TERMIC (CM )                Tramo=3000       SKU=01.002-1     T=52.0% B=0.0%
+    [OK ] F130 AIR BUR TERMIC (CM )                Tramo=3000       SKU=01.002-2     T=52.0% B=0.0%
+    [OK ] F130 AIR BUR TERMIC (CM )                Tramo=3000       SKU=01.002-3     T=52.0% B=0.0%
+    [OK ] F130 AIR BUR TERMIC (CM )                Tramo=3000       SKU=01.002-4     T=52.0% B=0.0%
+    [OK ] F131 AIR BUR TERMIC (CM )                Tramo=2500       SKU=01.002       T=51.0% B=0.0%
+    [OK ] F131 AIR BUR TERMIC (CM )                Tramo=2500       SKU=01.002-1     T=51.0% B=0.0%
+    [OK ] F131 AIR BUR TERMIC (CM )                Tramo=2500       SKU=01.002-2     T=51.0% B=0.0%
+    [OK ] F131 AIR BUR TERMIC (CM )                Tramo=2500       SKU=01.002-3     T=51.0% B=0.0%
+    [OK ] F131 AIR BUR TERMIC (CM )                Tramo=2500       SKU=01.002-4     T=51.0% B=0.0%
+    [OK ] F132 AIR BUR TERMIC (CM )                Tramo=2000       SKU=01.002       T=51.0% B=0.0%
+    [OK ] F132 AIR BUR TERMIC (CM )                Tramo=2000       SKU=01.002-1     T=51.0% B=0.0%
+    [OK ] F132 AIR BUR TERMIC (CM )                Tramo=2000       SKU=01.002-2     T=51.0% B=0.0%
+    [OK ] F132 AIR BUR TERMIC (CM )                Tramo=2000       SKU=01.002-3     T=51.0% B=0.0%
+    [OK ] F132 AIR BUR TERMIC (CM )                Tramo=2000       SKU=01.002-4     T=51.0% B=0.0%
+    [OK ] F133 AIR BUR TERMIC (CM )                Tramo=1500       SKU=01.002       T=51.0% B=0.0%
+    [OK ] F133 AIR BUR TERMIC (CM )                Tramo=1500       SKU=01.002-1     T=51.0% B=0.0%
+    [OK ] F133 AIR BUR TERMIC (CM )                Tramo=1500       SKU=01.002-2     T=51.0% B=0.0%
+    [OK ] F133 AIR BUR TERMIC (CM )                Tramo=1500       SKU=01.002-3     T=51.0% B=0.0%
+    [OK ] F133 AIR BUR TERMIC (CM )                Tramo=1500       SKU=01.002-4     T=51.0% B=0.0%
+    [OK ] F134 AIR BUR TERMIC (CM )                Tramo=1000       SKU=01.002       T=51.0% B=0.0%
+    [OK ] F134 AIR BUR TERMIC (CM )                Tramo=1000       SKU=01.002-1     T=51.0% B=0.0%
+    [OK ] F134 AIR BUR TERMIC (CM )                Tramo=1000       SKU=01.002-2     T=51.0% B=0.0%
+    [OK ] F134 AIR BUR TERMIC (CM )                Tramo=1000       SKU=01.002-3     T=51.0% B=0.0%
+    [OK ] F134 AIR BUR TERMIC (CM )                Tramo=1000       SKU=01.002-4     T=51.0% B=0.0%
+    [OK ] F135 AIR BUR TERMIC (CM )                Tramo=< 1.000 Ôé¼  SKU=01.002       T=51.0% B=0.0%
+    [OK ] F135 AIR BUR TERMIC (CM )                Tramo=< 1.000 Ôé¼  SKU=01.002-1     T=51.0% B=0.0%
+    [OK ] F135 AIR BUR TERMIC (CM )                Tramo=< 1.000 Ôé¼  SKU=01.002-2     T=51.0% B=0.0%
+    [OK ] F135 AIR BUR TERMIC (CM )                Tramo=< 1.000 Ôé¼  SKU=01.002-3     T=51.0% B=0.0%
+    [OK ] F135 AIR BUR TERMIC (CM )                Tramo=< 1.000 Ôé¼  SKU=01.002-4     T=51.0% B=0.0%
+    [OK ] F136 AC├ÜSTICA                            Tramo=6000       SKU=11.000       T=57.0% B=0.0%
+    [OK ] F136 AC├ÜSTICA                            Tramo=6000       SKU=11.001       T=57.0% B=0.0%
+    [OK ] F136 AC├ÜSTICA                            Tramo=6000       SKU=11.001b      T=57.0% B=0.0%
+    [OK ] F136 AC├ÜSTICA                            Tramo=6000       SKU=11.002       T=57.0% B=0.0%
+    [OK ] F136 AC├ÜSTICA                            Tramo=6000       SKU=11.003       T=57.0% B=0.0%
+    [OK ] F136 AC├ÜSTICA                            Tramo=6000       SKU=11.004       T=57.0% B=0.0%
+    [OK ] F136 AC├ÜSTICA                            Tramo=6000       SKU=11.005       T=57.0% B=0.0%
+    [OK ] F136 AC├ÜSTICA                            Tramo=6000       SKU=11.006       T=57.0% B=0.0%
+    [OK ] F137 AC├ÜSTICA                            Tramo=4000       SKU=11.000       T=56.0% B=0.0%
+    [OK ] F137 AC├ÜSTICA                            Tramo=4000       SKU=11.001       T=56.0% B=0.0%
+    [OK ] F137 AC├ÜSTICA                            Tramo=4000       SKU=11.001b      T=56.0% B=0.0%
+    [OK ] F137 AC├ÜSTICA                            Tramo=4000       SKU=11.002       T=56.0% B=0.0%
+    [OK ] F137 AC├ÜSTICA                            Tramo=4000       SKU=11.003       T=56.0% B=0.0%
+    [OK ] F137 AC├ÜSTICA                            Tramo=4000       SKU=11.004       T=56.0% B=0.0%
+    [OK ] F137 AC├ÜSTICA                            Tramo=4000       SKU=11.005       T=56.0% B=0.0%
+    [OK ] F137 AC├ÜSTICA                            Tramo=4000       SKU=11.006       T=56.0% B=0.0%
+    [OK ] F138 AC├ÜSTICA                            Tramo=3000       SKU=11.000       T=55.0% B=0.0%
+    [OK ] F138 AC├ÜSTICA                            Tramo=3000       SKU=11.001       T=55.0% B=0.0%
+    [OK ] F138 AC├ÜSTICA                            Tramo=3000       SKU=11.001b      T=55.0% B=0.0%
+    [OK ] F138 AC├ÜSTICA                            Tramo=3000       SKU=11.002       T=55.0% B=0.0%
+    [OK ] F138 AC├ÜSTICA                            Tramo=3000       SKU=11.003       T=55.0% B=0.0%
+    [OK ] F138 AC├ÜSTICA                            Tramo=3000       SKU=11.004       T=55.0% B=0.0%
+    [OK ] F138 AC├ÜSTICA                            Tramo=3000       SKU=11.005       T=55.0% B=0.0%
+    [OK ] F138 AC├ÜSTICA                            Tramo=3000       SKU=11.006       T=55.0% B=0.0%
+    [OK ] F139 AC├ÜSTICA                            Tramo=2500       SKU=11.000       T=52.0% B=0.0%
+    [OK ] F139 AC├ÜSTICA                            Tramo=2500       SKU=11.001       T=52.0% B=0.0%
+    [OK ] F139 AC├ÜSTICA                            Tramo=2500       SKU=11.001b      T=52.0% B=0.0%
+    [OK ] F139 AC├ÜSTICA                            Tramo=2500       SKU=11.002       T=52.0% B=0.0%
+    [OK ] F139 AC├ÜSTICA                            Tramo=2500       SKU=11.003       T=52.0% B=0.0%
+    [OK ] F139 AC├ÜSTICA                            Tramo=2500       SKU=11.004       T=52.0% B=0.0%
+    [OK ] F139 AC├ÜSTICA                            Tramo=2500       SKU=11.005       T=52.0% B=0.0%
+    [OK ] F139 AC├ÜSTICA                            Tramo=2500       SKU=11.006       T=52.0% B=0.0%
+    [OK ] F140 AC├ÜSTICA                            Tramo=2000       SKU=11.000       T=51.0% B=0.0%
+    [OK ] F140 AC├ÜSTICA                            Tramo=2000       SKU=11.001       T=51.0% B=0.0%
+    [OK ] F140 AC├ÜSTICA                            Tramo=2000       SKU=11.001b      T=51.0% B=0.0%
+    [OK ] F140 AC├ÜSTICA                            Tramo=2000       SKU=11.002       T=51.0% B=0.0%
+    [OK ] F140 AC├ÜSTICA                            Tramo=2000       SKU=11.003       T=51.0% B=0.0%
+    [OK ] F140 AC├ÜSTICA                            Tramo=2000       SKU=11.004       T=51.0% B=0.0%
+    [OK ] F140 AC├ÜSTICA                            Tramo=2000       SKU=11.005       T=51.0% B=0.0%
+    [OK ] F140 AC├ÜSTICA                            Tramo=2000       SKU=11.006       T=51.0% B=0.0%
+    [OK ] F141 AC├ÜSTICA                            Tramo=1500       SKU=11.000       T=50.0% B=0.0%
+    [OK ] F141 AC├ÜSTICA                            Tramo=1500       SKU=11.001       T=50.0% B=0.0%
+    [OK ] F141 AC├ÜSTICA                            Tramo=1500       SKU=11.001b      T=50.0% B=0.0%
+    [OK ] F141 AC├ÜSTICA                            Tramo=1500       SKU=11.002       T=50.0% B=0.0%
+    [OK ] F141 AC├ÜSTICA                            Tramo=1500       SKU=11.003       T=50.0% B=0.0%
+    [OK ] F141 AC├ÜSTICA                            Tramo=1500       SKU=11.004       T=50.0% B=0.0%
+    [OK ] F141 AC├ÜSTICA                            Tramo=1500       SKU=11.005       T=50.0% B=0.0%
+    [OK ] F141 AC├ÜSTICA                            Tramo=1500       SKU=11.006       T=50.0% B=0.0%
+    [OK ] F142 AC├ÜSTICA                            Tramo=1000       SKU=11.000       T=47.0% B=0.0%
+    [OK ] F142 AC├ÜSTICA                            Tramo=1000       SKU=11.001       T=47.0% B=0.0%
+    [OK ] F142 AC├ÜSTICA                            Tramo=1000       SKU=11.001b      T=47.0% B=0.0%
+    [OK ] F142 AC├ÜSTICA                            Tramo=1000       SKU=11.002       T=47.0% B=0.0%
+    [OK ] F142 AC├ÜSTICA                            Tramo=1000       SKU=11.003       T=47.0% B=0.0%
+    [OK ] F142 AC├ÜSTICA                            Tramo=1000       SKU=11.004       T=47.0% B=0.0%
+    [OK ] F142 AC├ÜSTICA                            Tramo=1000       SKU=11.005       T=47.0% B=0.0%
+    [OK ] F142 AC├ÜSTICA                            Tramo=1000       SKU=11.006       T=47.0% B=0.0%
+    [OK ] F143 AC├ÜSTICA                            Tramo=< 1.000 Ôé¼  SKU=11.000       T=47.0% B=0.0%
+    [OK ] F143 AC├ÜSTICA                            Tramo=< 1.000 Ôé¼  SKU=11.001       T=47.0% B=0.0%
+    [OK ] F143 AC├ÜSTICA                            Tramo=< 1.000 Ôé¼  SKU=11.001b      T=47.0% B=0.0%
+    [OK ] F143 AC├ÜSTICA                            Tramo=< 1.000 Ôé¼  SKU=11.002       T=47.0% B=0.0%
+    [OK ] F143 AC├ÜSTICA                            Tramo=< 1.000 Ôé¼  SKU=11.003       T=47.0% B=0.0%
+    [OK ] F143 AC├ÜSTICA                            Tramo=< 1.000 Ôé¼  SKU=11.004       T=47.0% B=0.0%
+    [OK ] F143 AC├ÜSTICA                            Tramo=< 1.000 Ôé¼  SKU=11.005       T=47.0% B=0.0%
+    [OK ] F143 AC├ÜSTICA                            Tramo=< 1.000 Ôé¼  SKU=11.006       T=47.0% B=0.0%
+    [OK ] F144 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.001       T=57.0% B=0.0%
+    [OK ] F144 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.002       T=57.0% B=0.0%
+    [OK ] F144 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.003       T=57.0% B=0.0%
+    [OK ] F144 ANTI IMPACTO (NO SOUND)             Tramo=6000       SKU=12.004       T=57.0% B=0.0%
+    [OK ] F145 ANTI IMPACTO (NO SOUND)             Tramo=4000       SKU=12.001       T=56.0% B=0.0%
+    [OK ] F145 ANTI IMPACTO (NO SOUND)             Tramo=4000       SKU=12.002       T=56.0% B=0.0%
+    [OK ] F145 ANTI IMPACTO (NO SOUND)             Tramo=4000       SKU=12.003       T=56.0% B=0.0%
+    [OK ] F145 ANTI IMPACTO (NO SOUND)             Tramo=4000       SKU=12.004       T=56.0% B=0.0%
+    [OK ] F146 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.001       T=55.0% B=0.0%
+    [OK ] F146 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.002       T=55.0% B=0.0%
+    [OK ] F146 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.003       T=55.0% B=0.0%
+    [OK ] F146 ANTI IMPACTO (NO SOUND)             Tramo=3000       SKU=12.004       T=55.0% B=0.0%
+    [OK ] F147 ANTI IMPACTO (NO SOUND)             Tramo=2500       SKU=12.001       T=53.0% B=0.0%
+    [OK ] F147 ANTI IMPACTO (NO SOUND)             Tramo=2500       SKU=12.002       T=53.0% B=0.0%
+    [OK ] F147 ANTI IMPACTO (NO SOUND)             Tramo=2500       SKU=12.003       T=53.0% B=0.0%
+    [OK ] F147 ANTI IMPACTO (NO SOUND)             Tramo=2500       SKU=12.004       T=53.0% B=0.0%
+    [OK ] F148 ANTI IMPACTO (NO SOUND)             Tramo=2000       SKU=12.001       T=51.0% B=0.0%
+    [OK ] F148 ANTI IMPACTO (NO SOUND)             Tramo=2000       SKU=12.002       T=51.0% B=0.0%
+    [OK ] F148 ANTI IMPACTO (NO SOUND)             Tramo=2000       SKU=12.003       T=51.0% B=0.0%
+    [OK ] F148 ANTI IMPACTO (NO SOUND)             Tramo=2000       SKU=12.004       T=51.0% B=0.0%
+    [OK ] F149 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.001       T=50.0% B=0.0%
+    [OK ] F149 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.002       T=50.0% B=0.0%
+    [OK ] F149 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.003       T=50.0% B=0.0%
+    [OK ] F149 ANTI IMPACTO (NO SOUND)             Tramo=1500       SKU=12.004       T=50.0% B=0.0%
+    [OK ] F150 ANTI IMPACTO (NO SOUND)             Tramo=1000       SKU=12.001       T=48.0% B=0.0%
+    [OK ] F150 ANTI IMPACTO (NO SOUND)             Tramo=1000       SKU=12.002       T=48.0% B=0.0%
+    [OK ] F150 ANTI IMPACTO (NO SOUND)             Tramo=1000       SKU=12.003       T=48.0% B=0.0%
+    [OK ] F150 ANTI IMPACTO (NO SOUND)             Tramo=1000       SKU=12.004       T=48.0% B=0.0%
+    [OK ] F151 ANTI IMPACTO (NO SOUND)             Tramo=< 1.000 Ôé¼  SKU=12.001       T=47.0% B=0.0%
+    [OK ] F151 ANTI IMPACTO (NO SOUND)             Tramo=< 1.000 Ôé¼  SKU=12.002       T=47.0% B=0.0%
+    [OK ] F151 ANTI IMPACTO (NO SOUND)             Tramo=< 1.000 Ôé¼  SKU=12.003       T=47.0% B=0.0%
+    [OK ] F151 ANTI IMPACTO (NO SOUND)             Tramo=< 1.000 Ôé¼  SKU=12.004       T=47.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.001       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.002       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.003       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.004       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.005       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.006       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.007       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.008       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.009       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.010       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.011       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.012       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.013       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.016       T=55.0% B=0.0%
+    [OK ] F152 IMPERMEABILIZANTES                  Tramo=5000       SKU=16.017       T=55.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.001       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.002       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.003       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.004       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.005       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.006       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.007       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.008       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.009       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.010       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.011       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.012       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.013       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.016       T=53.0% B=0.0%
+    [OK ] F153 IMPERMEABILIZANTES                  Tramo=4000       SKU=16.017       T=53.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.001       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.002       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.003       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.004       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.005       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.006       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.007       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.008       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.009       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.010       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.011       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.012       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.013       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.016       T=52.0% B=0.0%
+    [OK ] F154 IMPERMEABILIZANTES                  Tramo=3000       SKU=16.017       T=52.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.001       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.002       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.003       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.004       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.005       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.006       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.007       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.008       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.009       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.010       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.011       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.012       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.013       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.016       T=51.0% B=0.0%
+    [OK ] F155 IMPERMEABILIZANTES                  Tramo=2500       SKU=16.017       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.001       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.002       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.003       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.004       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.005       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.006       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.007       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.008       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.009       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.010       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.011       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.012       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.013       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.016       T=51.0% B=0.0%
+    [OK ] F156 IMPERMEABILIZANTES                  Tramo=2000       SKU=16.017       T=51.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.001       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.002       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.003       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.004       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.005       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.006       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.007       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.008       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.009       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.010       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.011       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.012       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.013       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.016       T=50.0% B=0.0%
+    [OK ] F157 IMPERMEABILIZANTES                  Tramo=1500       SKU=16.017       T=50.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.001       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.002       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.003       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.004       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.005       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.006       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.007       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.008       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.009       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.010       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.011       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.012       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.013       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.016       T=48.0% B=0.0%
+    [OK ] F158 IMPERMEABILIZANTES                  Tramo=1000       SKU=16.017       T=48.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.001       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.002       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.003       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.004       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.005       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.006       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.007       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.008       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.009       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.010       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.011       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.012       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.013       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.016       T=47.0% B=0.0%
+    [OK ] F159 IMPERMEABILIZANTES                  Tramo=< 1.000 Ôé¼  SKU=16.017       T=47.0% B=0.0%
+
+================================================================================
+SECCI├ôN C: SERVICIO ÔÇö Bonus +2 GAMAS y +OTRA GAMA via validate_range()
+================================================================================
+  [OK ] CM XPS base 55% @6000 ÔåÆ OK: status=OK
+  [OK ] CM XPS solo 57%>55% ÔåÆ BLOQUEADO: status=BLOQUEADO
+  [OK ] CM XPS +2 GAMAS 57%@6000 ÔåÆ OK: status=OK
+  [OK ] CM XPS +2 GAMAS Generalistas 57%@6000 ÔåÆ OK: status=OK
+  [OK ] CM XPS +2 GAMAS 60%>57% ÔåÆ BLOQUEADO o AVISO: status=BLOQUEADO
+  [OK ] PARQUET base 58%@3000 ÔåÆ OK: status=OK
+  [OK ] PARQUET solo 60%>58% ÔåÆ BLOQUEADO: status=BLOQUEADO
+  [OK ] PARQUET +OTRA GAMA 60%@3000 ÔåÆ OK: status=OK
+  [OK ] REVIEW_REQUIRED excluido ÔåÆ OK: status=OK
+
+  SERVICIO: 9 OK / 0 ERR
+
+================================================================================
+RESULTADO FINAL:
+  PORTES:     24 OK / 0 ERR
+  DESCUENTOS: 1061 OK / 0 ERR / 16 via-SERVICIO (+2 GAMAS) / 8 SKIPPED
+  SERVICIO:   9 OK / 0 ERR  (+2 GAMAS / +OTRA GAMA via validate_range)
+  TODOS los controles pasados. Motor comercial 100% alineado con Excel 2026.
+================================================================================

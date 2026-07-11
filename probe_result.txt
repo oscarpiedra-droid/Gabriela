@@ -1,0 +1,21 @@
+Conectando a bur2000.binhex.cloud:443 ...
+Conectado OK.
+
+=== DATOS PEDIDO ===
+Pedido       : SO49803
+Partner ID   : [22063, 'TRADEDEKOR, S.L.']
+partner_type : [32, 'Almacén de Parquet. Independiente']
+Carrier      : [1, 'Recoge Cliente']
+Tarifa       : [14, 'Tarifa Parquet A+8 (EUR)']
+Base imp.    : 253.8
+
+=== DATOS PARTNER ===
+NIF          : B66595364
+ZIP          : 08907
+Etiquetas    : []
+
+partner_type NAME : 'Almacén de Parquet. Independiente'
+
+=== CATÁLOGO HOMOLOGACIÓN ===
+Candidatos a homologar: ['Almacén de Parquet. Independiente']
+  MATCH: 'Almacén de Parquet. Independiente' -> segmento='Almacenes e instaladores (GAMA SOUND)' uso='SOUND'

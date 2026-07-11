@@ -1,0 +1,313 @@
+{
+  "_meta": {
+    "version": "2026-01",
+    "DEPRECADO": "⚠️ ESTE ARCHIVO ESTÁ OBSOLETO. Usar EXCLUSIVAMENTE app/db/services/homologacion_clientes.json (v3.0). Este fichero se conserva solo como referencia histórica y NO debe ser cargado por ningún servicio.",
+    "description": "Capa maestra de homologación: valor exacto de Odoo 'Tipo de cliente' → segmento comercial del validador.",
+    "instruccion": "El motor de validación NUNCA debe usar comparación parcial ni inferencia semántica. Solo búsqueda exacta (case-sensitive) por odoo_tipo_cliente.",
+    "estados_posibles": ["activo", "deprecado"],
+    "uso_posibles": ["ESTÁNDAR", "SOUND", "ESPECIAL", "REVISIÓN"]
+  },
+  "homologacion": [
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra BDB",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra Gamma",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Independiente",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra UNYCO",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra Ibricks",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra Matdeco",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra Magatzem",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra EMCCAT",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra Ibergroup",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra BigMat",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Empresas Constructoras",
+      "segmento_aplicacion": "Empresas Constructoras",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Parquet. Independiente",
+      "segmento_aplicacion": "Almacenes e instaladores (GAMA SOUND)",
+      "uso": "SOUND",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Direccional. Internacional",
+      "segmento_aplicacion": "Condiciones fuera de la tabla",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "No aplicar tabla estándar. Requiere regla especial o revisión controlada."
+    },
+    {
+      "odoo_tipo_cliente": "Instaladores y Reformistas",
+      "segmento_aplicacion": "Empresas Instaladoras",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Promotores o Arquitectos o Particular",
+      "segmento_aplicacion": "Condiciones fuera de la tabla",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "No aplicar tabla estándar. Requiere revisión comercial."
+    },
+    {
+      "odoo_tipo_cliente": "Tipo de Empresa por Definir",
+      "segmento_aplicacion": "Tipo de Empresa por Definir",
+      "uso": "REVISIÓN",
+      "estado": "activo",
+      "notas": "Bloquear validación automática. Generar incidencia de clasificación comercial."
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra Saint Gobain",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Instalador de Parquet",
+      "segmento_aplicacion": "Almacenes e instaladores (GAMA SOUND)",
+      "uso": "SOUND",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Direccional. Nacional",
+      "segmento_aplicacion": "Condiciones fuera de la tabla",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "No aplicar tabla estándar. Requiere regla especial o revisión controlada."
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Independiente",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Parquet. Grupo Compra Ibricks",
+      "segmento_aplicacion": "Almacenes e instaladores (GAMA SOUND)",
+      "uso": "SOUND",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Grupo Compra BDB",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Grupo Compra BigMat",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Grupo Compra BME",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Grupo Compra Ibricks",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Grupo Compra Matdeco",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra BDB",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra BigMat",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra BME",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra Gamma",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra Ibergroup",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra Ibricks",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Independiente",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Instalador de Cubiertas y Forjados",
+      "segmento_aplicacion": "Empresas Instaladoras",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Instaladores de Aislamientos PYL",
+      "segmento_aplicacion": "Empresas Instaladoras",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra Matdeco",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra EMCCAT",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Parquet Francesc. Independiente",
+      "segmento_aplicacion": "Almacenes e instaladores (GAMA SOUND)",
+      "uso": "SOUND",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "gamma",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Valor legacy en minúsculas, mantener por compatibilidad."
+    },
+    {
+      "odoo_tipo_cliente": "Almacenes Especializados",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra Magatzem",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Parquet. Grupo BDB",
+      "segmento_aplicacion": "Almacenes e instaladores (GAMA SOUND)",
+      "uso": "SOUND",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Aislamientos",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    }
+  ]
+}

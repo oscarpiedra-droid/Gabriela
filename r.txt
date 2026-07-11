@@ -1,0 +1,8 @@
+﻿<StringArray>
+[          'Almacenes Especialistas (PYL)',
+                  'Almacenes Generalistas',
+                  'Empresas Constructoras',
+                   'Empresas Instaladoras',
+   'Almacenes e Instaladores (Gama SOUND)',
+ 'AxarquÝa de Aislamientos (Distribuci¾n)']
+Length: 6, dtype: str

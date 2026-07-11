@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Bur2000_v2\Gabriela\scan_homo.py", line 5, in <module>
+    from db.connection import OdooService
+ImportError: cannot import name 'OdooService' from 'db.connection' (C:\Users\User\Desktop\Bur2000_v2\Gabriela\app\db\connection.py)

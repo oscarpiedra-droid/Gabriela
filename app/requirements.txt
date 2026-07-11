@@ -1,0 +1,17 @@
+PySide6
+loguru
+python-dotenv
+OdooRPC
+requests
+openai
+anthropic
+google-generativeai
+groq
+reportlab
+pandas
+openpyxl
+matplotlib
+scikit-learn
+numpy
+psutil
+psycopg2-binary

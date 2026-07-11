@@ -1,0 +1,230 @@
+{
+  "_comment": "Lista de comerciales activos de BUR2000. Editar aquí cuando haya altas/bajas.",
+  "_campos": {
+    "codigo": "Código interno del comercial (número de Odoo)",
+    "nombre": "Nombre completo en MAYÚSCULAS (se muestra en el desplegable)",
+    "tipo": "Tipo de cartera: NACIONAL, MIXTO, ALMACENES, CONSTRUCCION, PARQUET, GRANDES_CUENTAS",
+    "zona": "Descripción de territorios asignados",
+    "email": "Email corporativo",
+    "telefono": "Teléfono móvil",
+    "activo": "true/false — poner false para ocultarlo del desplegable sin borrarlo"
+  },
+  "comerciales": [
+    {
+      "codigo": "2802",
+      "nombre": "ENRIC GENÉ",
+      "tipo": "NACIONAL",
+      "zona": "DIRECCIÓN COMERCIAL",
+      "email": "enric.gene@bur2000.com",
+      "telefono": "667 980 994",
+      "activo": true
+    },
+    {
+      "codigo": "2801",
+      "nombre": "IRUNE ARETXABALETA",
+      "tipo": "MIXTO",
+      "zona": "NAVARRA / LA RIOJA / PAIS VASCO / ARAGÓN / CANTABRIA / BURGOS / SORIA / CATALUÑA (ALMACENES/PARQUET)",
+      "email": "irune@bur2000.com",
+      "telefono": "668 980 970",
+      "activo": true
+    },
+    {
+      "codigo": "2406",
+      "nombre": "JAVIER GARCÍA",
+      "tipo": "CONST / ALMAC",
+      "zona": "ARAGÓN - SORIA - LA RIOJA - NAVARRA",
+      "email": "javier.garcia@bur2000.com",
+      "telefono": "663 541 272",
+      "activo": true
+    },
+    {
+      "codigo": "2050",
+      "nombre": "AISSA EL AISSATI",
+      "tipo": "ALMACENES",
+      "zona": "BARCELONA (ALTO PENEDÉS, BAJO LLOBREGAT, BARCELONÉS, Hospitalet, Cornellà de Llobregat, Vallès Occidental)",
+      "email": "aissa@bur2000.com",
+      "telefono": "633 163 780",
+      "activo": true
+    },
+    {
+      "codigo": "2302",
+      "nombre": "ANTONIO MORÁN",
+      "tipo": "ALMACENES",
+      "zona": "BARCELONA (ANOIA, BAGES, MARESME, OSONA, VALLÈS ORIENTAL, BERGUEDÀ, LLUÇANÈS, BARCELONÉS Badalona/S.Coloma/Gramenet/Sant Adrià) – GIRONA",
+      "email": "antonio.moran@bur2000.com",
+      "telefono": "647 570 620",
+      "activo": true
+    },
+    {
+      "codigo": "2018",
+      "nombre": "FRANCESC TENA",
+      "tipo": "ALMAC / PARQUET",
+      "zona": "PLENA CATALUÑA – ANDORRA / ALMACENES: TARRAGONA, LLEIDA, BARCELONA (GARRAF), ANDORRA",
+      "email": "f.tena@bur2000.com",
+      "telefono": "660 294 254",
+      "activo": true
+    },
+    {
+      "codigo": "2037",
+      "nombre": "ADRIÁN VALLE",
+      "tipo": "MIXTO",
+      "zona": "COM. VALENCIANA / MURCIA / BALEARES / CATALUÑA (CONSTRUCCIÓN)",
+      "email": "adrian.valle@bur2000.com",
+      "telefono": "633 167 968",
+      "activo": true
+    },
+    {
+      "codigo": "2355",
+      "nombre": "JORDI CODINA",
+      "tipo": "CONSTRUCCIÓN",
+      "zona": "GIRONA – LLEIDA (BARCELONA: ANOIA, BAGES, BERGUEDÀ, OSONA, MARESME, LLUÇANÈS, VALLÈS ORIENTAL, VALLÈS OCCIDENTAL, BARCELONÉS Badalona/S.Coloma/Gramenet/Sant Adrià)",
+      "email": "jordi.codina@bur2000.com",
+      "telefono": "647 729 433",
+      "activo": true
+    },
+    {
+      "codigo": "2026",
+      "nombre": "RAÚL LÓPEZ",
+      "tipo": "CONSTRUCCIÓN",
+      "zona": "BARCELONA (ALTO PENEDÉS, BAJO LLOBREGAT, BARCELONÉS, Hospitalet, Cornellà, GARRAF) – TARRAGONA",
+      "email": "raul.lopez@bur2000.com",
+      "telefono": "637 074 189",
+      "activo": true
+    },
+    {
+      "codigo": "2301",
+      "nombre": "FELIPE FERRER",
+      "tipo": "CONSTRUCCIÓN",
+      "zona": "BALEARES",
+      "email": "f.felipe.ferrer@bur2000.com",
+      "telefono": "664 569 986",
+      "activo": true
+    },
+    {
+      "codigo": "2044",
+      "nombre": "FRANCISCO ALARCÓN",
+      "tipo": "CONSTRUCCIÓN",
+      "zona": "ALICANTE – MURCIA – ALMERÍA",
+      "email": "francisco.alarcon@bur2000.com",
+      "telefono": "677 987 740",
+      "activo": true
+    },
+    {
+      "codigo": "2502",
+      "nombre": "JUAN B. SOROLLA",
+      "tipo": "CONSTRUCCIÓN",
+      "zona": "VALENCIA – CASTELLÓN",
+      "email": "juan.sorolla@bur2000.com",
+      "telefono": "647 885 257",
+      "activo": true
+    },
+    {
+      "codigo": "2051",
+      "nombre": "JUAN CRESPI",
+      "tipo": "ALMAC / PARQUET",
+      "zona": "BALEARES",
+      "email": "juan.crespi@bur2000.com",
+      "telefono": "633 173 381",
+      "activo": true
+    },
+    {
+      "codigo": "2354",
+      "nombre": "MARCOS BARTUAL",
+      "tipo": "ALMAC / PARQUET",
+      "zona": "VALENCIA – CASTELLÓN",
+      "email": "marcos.bartual@bur2000.com",
+      "telefono": "647 729 125",
+      "activo": true
+    },
+    {
+      "codigo": "2303",
+      "nombre": "JOSÉ CARLOS JIMENO",
+      "tipo": "ALMAC / PARQUET",
+      "zona": "COMUNIDAD DE MADRID – EXTREMADURA – CASTILLA Y LEON (menos Burgos y Soria) – CASTILLA LA MANCHA",
+      "email": "jose.jimeno@bur2000.com",
+      "telefono": "697 720 275",
+      "activo": true
+    },
+    {
+      "codigo": "2402",
+      "nombre": "PEDRO DOMÍNGUEZ",
+      "tipo": "PARQUET",
+      "zona": "COMUNIDAD DE MADRID",
+      "email": "pedro.dominguez@bur2000.com",
+      "telefono": "663 541 192",
+      "activo": true
+    },
+    {
+      "codigo": "2404",
+      "nombre": "JOSÉ MARÍA ARÉS",
+      "tipo": "ALMACENES",
+      "zona": "COMUNIDAD DE MADRID – ÁVILA – SALAMANCA",
+      "email": "jose.ares@bur2000.com",
+      "telefono": "663 541 224",
+      "activo": true
+    },
+    {
+      "codigo": "2304",
+      "nombre": "JUAN ANDRÉS REBOLLO",
+      "tipo": "MIXTO",
+      "zona": "CIUDAD REAL – TOLEDO – CUENCA – ALBACETE – EXTREMADURA",
+      "email": "juanandres.rebollo@bur2000.com",
+      "telefono": "697 720 280",
+      "activo": true
+    },
+    {
+      "codigo": "2352",
+      "nombre": "LUIS GONZÁLEZ - LESAOLA",
+      "tipo": "MIXTO",
+      "zona": "ASTURIAS – GALICIA",
+      "email": "luis.gonzalez@bur2000.com",
+      "telefono": "647 729 423",
+      "activo": true
+    },
+    {
+      "codigo": "2353",
+      "nombre": "MARTIN ESPIN",
+      "tipo": "CONSTRUCCIÓN",
+      "zona": "COMUNIDAD DE MADRID",
+      "email": "martin.espin@bur2000.com",
+      "telefono": "647 729 424",
+      "activo": true
+    },
+    {
+      "codigo": "2401",
+      "nombre": "CARLOS LEZAUN",
+      "tipo": "CONSTRUCCIÓN",
+      "zona": "COMUNIDAD DE MADRID",
+      "email": "carlos.lezaun@bur2000.com",
+      "telefono": "663 541 160",
+      "activo": true
+    },
+    {
+      "codigo": "----",
+      "nombre": "JUAN FRANCISCO SANCHEZ",
+      "tipo": "CONST / ALMAC",
+      "zona": "SEVILLA – MÁLAGA – CÁDIZ – HUELVA – CÓRDOBA",
+      "email": "juanfran.sanchez@bur2000.com",
+      "telefono": "635 681 126",
+      "activo": true
+    },
+    {
+      "codigo": "2049",
+      "nombre": "MARIO BALDÚ",
+      "tipo": "GRANDES CUENTAS",
+      "zona": "TERRITORIO NORTE – ESTE – LEVANTE",
+      "email": "mbaldo@bur2000.com",
+      "telefono": "623 529 004",
+      "activo": true
+    },
+    {
+      "codigo": "2034",
+      "nombre": "LUIS CASADO",
+      "tipo": "GRANDES CUENTAS",
+      "zona": "TERRITORIO CENTRO SUR",
+      "email": "l.casado@bur2000.com",
+      "telefono": "663 209 195",
+      "activo": true
+    }
+  ]
+}

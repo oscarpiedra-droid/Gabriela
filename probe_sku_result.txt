@@ -1,0 +1,20 @@
+SKU 22.005-1 ENCONTRADO:
+  family_logic_base = 'PARQUET'
+  sku: 22.005-1
+  source_row: 173.0
+  exists_in_tarifa_pvp: SI
+  product_name: Air-bur Impact Plus 2mm (30m2)
+  description: Espuma Polietileno no Reticulado - Foam Laminado LDPE. Espesor 2mm
+  section_pvp: Aislamiento Anti Impacto para Suelos Laminados y Parquet - Espuma Polietileno No Reticulado Laminados
+  all_sections: Aislamiento Anti Impacto para Suelos Laminados y Parquet - Espuma Polietileno No Reticulado Laminados
+  family_logic_base: PARQUET
+  shipping_group_key: G5_SOUND
+  presentation: 30m2/rollo
+  break_pallet_flag: No
+  full_pallet_required: NO
+  duplicate_in_tarifa: NO
+  review_required: NO
+  review_reason: None
+  classification_note: None
+
+SPECIAL_CUSTOMERS: []

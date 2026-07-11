@@ -1,0 +1,13 @@
+﻿SHEETS FOUND: ['README_PROPUESTA', 'Fuente_Original_2026', 'Propuesta_Rangos_2026', 'Claves_Integracion']
+
+--- SHEET: README_PROPUESTA ---
+
+--- SHEET: Fuente_Original_2026 ---
+  MATCHES in column 'Segmento': ['ALMACENES E INSTALADORES (GAMA SOUND)']
+  MATCHES in column 'Familia': ['ANTI IMPACTO (NO SOUND)']
+
+--- SHEET: Propuesta_Rangos_2026 ---
+  MATCHES in column 'Segmento': ['ALMACENES E INSTALADORES (GAMA SOUND)']
+  MATCHES in column 'Familia': ['ANTI IMPACTO (NO SOUND)']
+
+--- SHEET: Claves_Integracion ---

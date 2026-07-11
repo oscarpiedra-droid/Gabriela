@@ -1,0 +1,92 @@
+==========================================================================
+        🤖 MANUAL: ASISTENTE TÉCNICO ("EMPLEADO INVISIBLE")
+==========================================================================
+
+El ASISTENTE TÉCNICO de Gabriela Rojas Pro es un módulo especializado 
+diseñado para actuar como un "Empleado Invisible" que gestiona la 
+comunicación técnica de Bur 2000 de forma semi-automática.
+
+--------------------------------------------------------------------------
+1. 📥 ¿CÓMO LLEGAN LOS EMAILS? (FLUJO DE ENTRADA)
+--------------------------------------------------------------------------
+Los correos electrónicos no entran directamente a la aplicación, sino que 
+siguen un flujo centralizado para garantizar la trazabilidad:
+
+1. El Cliente envía un correo a: tecnico@bur2000.com (Alias de Odoo).
+2. Odoo procesa el correo: El sistema central lo convierte en un Ticket 
+   de Helpdesk o un mensaje en el Chatter de un pedido.
+3. Gabriela sincroniza los datos: La aplicación lee estos mensajes desde 
+   Odoo mediante su API, mostrándolos en el "Registro de Actividad".
+
+--------------------------------------------------------------------------
+2. 🎭 EL CONCEPTO: EL EMPLEADO INVISIBLE
+--------------------------------------------------------------------------
+Este módulo no es solo un chat; es un gestor de comunicaciones que:
+- Monitoriza la actividad técnica que llega a Odoo.
+- Utiliza Inteligencia Artificial para redactar propuestas de respuesta.
+- Mantiene un registro de qué se ha contestado y qué está pendiente.
+
+--------------------------------------------------------------------------
+3. 🎙️ WORKFLOW: DE VOZ A MAIL (SIMULADOR)
+--------------------------------------------------------------------------
+Es la herramienta principal para el equipo técnico:
+
+1. Entrada: El usuario pega una transcripción de voz o notas rápidas.
+2. Refinado: La IA (Groq, OpenAI, etc.) genera un borrador profesional.
+3. Envío Corporativo: Al confirmar, el email se envía a través de Odoo 
+   para que quede guardado en el historial del cliente.
+
+--------------------------------------------------------------------------
+4. 📊 PANEL DE CONTROL Y ESTADÍSTICAS
+--------------------------------------------------------------------------
+Desde la pestaña "🤖 Asistente", el equipo puede supervisar:
+- Procesados Hoy: Total de consultas gestionadas.
+- Respuestas IA: Cuántas han sido generadas por el asistente.
+- En Consulta (WhatsApp/Gmail): Casos que requieren atención manual.
+
+--------------------------------------------------------------------------
+5. 🧠 MOTORES DE INTELIGENCIA TÉCNICA
+--------------------------------------------------------------------------
+El asistente técnico utiliza "cerebros" externos configurables:
+- Groq/Llama 3 (Ultra-rápido) | Ollama (Privado/Local) | OpenAI / Gemini.
+
+--------------------------------------------------------------------------
+6. 🟢 ESTADO DEL SISTEMA
+--------------------------------------------------------------------------
+El asistente tiene conciencia horaria:
+- ACTIVO: Durante la jornada laboral ayuda en tiempo real.
+- DORMIDO: Fuera de horario, registra entradas para revisar después.
+
+--------------------------------------------------------------------------
+7. 📦 GESTIÓN DE STOCK Y ARTÍCULOS
+--------------------------------------------------------------------------
+Gabriela proporciona una visión de 360º sobre el almacén en tiempo real:
+- Disponibilidad Total: Cruce de stock entre Abrera, Silla y Pinto.
+- Reservas de Ventas: Identifica qué pedidos están "bloqueando" el stock 
+  analizando las Move Lines de Odoo.
+- Maestro de Dimensiones: Integración con base de datos externa para obtener 
+  Ancho, Largo y Espesor de cada referencia.
+- Logística de Carga: Cálculo automático de pesos (KG) y bultos por pallet 
+  para facilitar la contratación del transporte.
+
+--------------------------------------------------------------------------
+8. 🤝 ALTA DE CLIENTES (ONBOARDING)
+--------------------------------------------------------------------------
+Gabriela permite agilizar el alta de nuevos clientes y su validación:
+- Normalización: El sistema limpia caracteres especiales y acentos.
+- Validaciones: Comprobación de NIF duplicado e IBAN correcto.
+- Automatización Geo: Sugerencia de Ciudad/Provincia por Código Postal.
+- Archivos: Adjunta el NIF/CIF escaneado directamente al Chatter de Odoo.
+
+--------------------------------------------------------------------------
+9. 📊 ANALÍTICAS E INTELIGENCIA ARTIFICIAL
+--------------------------------------------------------------------------
+Gabriela incorpora un motor predictivo basado en Machine Learning:
+- Dashboards de KPIs: Visualización de tendencia de facturación y descuentos.
+- Predicción de Precios: Modelo Random Forest que estima el precio final 
+  de un pedido basándose en el historial de ventas del cliente.
+- Simulador de Datos: Herramienta `Faker` para generar escenarios de 
+  estrés y probar el rendimiento del servidor Odoo.
+
+Desarrollado para el departamento técnico de Bur 2000 por Oscar Piedra Osuna.
+==========================================================================

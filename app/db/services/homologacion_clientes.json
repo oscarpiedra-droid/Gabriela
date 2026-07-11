@@ -1,0 +1,533 @@
+{
+  "_meta": {
+    "version": "3.4",
+    "descripcion": "Catálogo MAESTRO de homologación de tipos de cliente (Odoo → Segmento). Fuente única de verdad.",
+    "last_updated": "2026-04-14T03:42",
+    "nota": "Las claves 'odoo_tipo_cliente' son EXACTAS y CASE-SENSITIVE. Deben coincidir con el NOMBRE devuelto por el campo customer_type (res.partner) o partner_type (sale.order) en Odoo. Estos campos son Many2one; la llave de búsqueda es el nombre del registro relacionado ([1] del par [id, nombre]).",
+    "instruccion": "El motor de validación NUNCA debe usar comparación parcial ni inferencia semántica. Solo búsqueda exacta (case-sensitive) por odoo_tipo_cliente.",
+    "estados_posibles": [
+      "activo",
+      "deprecado"
+    ],
+    "uso_posibles": [
+      "ESTÁNDAR",
+      "SOUND",
+      "ESPECIAL",
+      "REVISIÓN"
+    ],
+    "fusion": "v3.4 FIX CRÍTICO: corrección fuente de datos — el campo real en Odoo es customer_type (res.partner Many2one) y partner_type (sale.order Many2one), NO category_id (etiquetas). category_id estaba vacío para todos los clientes. Motor actualizado con estrategia 3 fuentes (partner_type → customer_type → category_id legado). 2026-04-14."
+  },
+  "homologacion": [
+    {
+      "odoo_tipo_cliente": "Axarquía de Aislamientos. Distribución",
+      "segmento_aplicacion": "Axarquía de Aislamientos (Distribución)",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "Distribuidor exclusivo Axarquía de Aislamientos. 8 tramos de facturación, sin DTO Baleares. Condiciones propias 2026."
+    },
+    {
+      "odoo_tipo_cliente": "Axarquía de Aislamientos (Distribución)",
+      "segmento_aplicacion": "Axarquía de Aislamientos (Distribución)",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "Alias con paréntesis para el distribuidor Axarquía de Aislamientos."
+    },
+    {
+      "odoo_tipo_cliente": "Axarquia de Aislamientos",
+      "segmento_aplicacion": "Axarquía de Aislamientos (Distribución)",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "Alias sin tilde — dato posiblemente sucio de Odoo."
+    },
+    {
+      "odoo_tipo_cliente": "Axarquia de Aislamientos. Distribucion",
+      "segmento_aplicacion": "Axarquía de Aislamientos (Distribución)",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "Alias sin tildes (dato sucio de Odoo)."
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Axarquía",
+      "segmento_aplicacion": "Axarquía de Aislamientos (Distribución)",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "Alias corto posible en Odoo para Axarquía de Aislamientos."
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo de Compra",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacenes afiliados a central de compras genérica (ej. COFAC, ANCECO)"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. grupo de compra",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Alias con capitalización alternativa de Odoo (grupo en minúscula). Misma regla que 'Almacén de Construcción. Grupo de Compra'."
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra BDB",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacén de construcción afiliado al grupo de compra BDB"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra BigMat",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacén de construcción afiliado al grupo de compra BigMat"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra BME",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacén de construcción afiliado al grupo de compra BME"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra EMCCAT",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacén de construcción afiliado al grupo de compra EMCCAT"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra Gamma",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacén de construcción afiliado al grupo de compra Gamma"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra Ibergroup",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacén de construcción afiliado al grupo de compra Ibergroup"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra Ibricks",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacén de construcción afiliado al grupo de compra Ibricks"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra Magatzem",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacén de construcción afiliado al grupo de compra Magatzem"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra Matdeco",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacén de construcción afiliado al grupo de compra Matdeco"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Grupo Compra UNYCO",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacén de construcción afiliado al grupo de compra UNYCO"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción. Independiente",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacén de construcción sin central de compras"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Construcción",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Almacén de construcción genérico (sin subtipo)"
+    },
+    {
+      "odoo_tipo_cliente": "Almacenes Especializados",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "PYL",
+      "segmento_aplicacion": "Almacenes Especialistas (PYL)",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Mapeo para el segmento de Placa de Yeso Laminado (PYL)"
+    },
+    {
+      "odoo_tipo_cliente": "Almacenes Especialistas (PYL)",
+      "segmento_aplicacion": "Almacenes Especialistas (PYL)",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Mapeo exacto para el segmento de Placa de Yeso Laminado (PYL)"
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Aislamientos",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Parquet. Independiente",
+      "segmento_aplicacion": "Almacenes e Instaladores (Gama SOUND)",
+      "uso": "SOUND",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Parquet. Grupo Compra Ibricks",
+      "segmento_aplicacion": "Almacenes e Instaladores (Gama SOUND)",
+      "uso": "SOUND",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Almacén de Parquet. Grupo BDB",
+      "segmento_aplicacion": "Almacenes e Instaladores (Gama SOUND)",
+      "uso": "SOUND",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Parquet Francesc. Independiente",
+      "segmento_aplicacion": "Almacenes e Instaladores (Gama SOUND)",
+      "uso": "SOUND",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Instalador de Parquet",
+      "segmento_aplicacion": "Almacenes e Instaladores (Gama SOUND)",
+      "uso": "SOUND",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Independiente",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Distribuidor oficial sin central de compras"
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Grupo de Compra",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Distribuidor oficial afiliado a central de compras genérica"
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Grupo Compra BDB",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Grupo Compra BigMat",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Grupo Compra BME",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Grupo Compra Ibricks",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial. Grupo Compra Matdeco",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Oficial",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Distribuidor oficial genérico"
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Independiente",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra BDB",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra BigMat",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra BME",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra EMCCAT",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra Gamma",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra Ibergroup",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra Ibricks",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra Magatzem",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra Matdeco",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Distribuidor Potencial. Grupo Compra Saint Gobain",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Ferretería. Independiente",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Ferretería sin central de compras"
+    },
+    {
+      "odoo_tipo_cliente": "Ferretería. Grupo de Compra",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Ferretería afiliada a central de compras"
+    },
+    {
+      "odoo_tipo_cliente": "Ferretería",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Ferretería genérica"
+    },
+    {
+      "odoo_tipo_cliente": "Empresas Constructoras",
+      "segmento_aplicacion": "Empresas Constructoras",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Empresa constructora",
+      "segmento_aplicacion": "Empresas Constructoras",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Alias singular minúscula — variante de escritura en Odoo."
+    },
+    {
+      "odoo_tipo_cliente": "Empresa Constructora",
+      "segmento_aplicacion": "Empresas Constructoras",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Alias singular capitalizado — variante de escritura en Odoo."
+    },
+    {
+      "odoo_tipo_cliente": "empresas constructoras",
+      "segmento_aplicacion": "Empresas Constructoras",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Alias en minúsculas por dato sucio en Odoo."
+    },
+    {
+      "odoo_tipo_cliente": "Constructora",
+      "segmento_aplicacion": "Especialistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Empresa constructora directa"
+    },
+    {
+      "odoo_tipo_cliente": "Constructor",
+      "segmento_aplicacion": "Especialistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Constructor individual / autónomo"
+    },
+    {
+      "odoo_tipo_cliente": "Aplicador. Independiente",
+      "segmento_aplicacion": "Especialistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Aplicador/instalador independiente"
+    },
+    {
+      "odoo_tipo_cliente": "Aplicador",
+      "segmento_aplicacion": "Especialistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Aplicador genérico"
+    },
+    {
+      "odoo_tipo_cliente": "Promotora",
+      "segmento_aplicacion": "Especialistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Promotora inmobiliaria"
+    },
+    {
+      "odoo_tipo_cliente": "Empresa de Reformas",
+      "segmento_aplicacion": "Especialistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Empresa especializada en reformas"
+    },
+    {
+      "odoo_tipo_cliente": "Arquitecto / Estudio",
+      "segmento_aplicacion": "Especialistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Estudios de arquitectura o ingeniería"
+    },
+    {
+      "odoo_tipo_cliente": "Instaladores y Reformistas",
+      "segmento_aplicacion": "Empresas Instaladoras",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Instalador de Cubiertas y Forjados",
+      "segmento_aplicacion": "Empresas Instaladoras",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Instaladores de Aislamientos PYL",
+      "segmento_aplicacion": "Empresas Instaladoras",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": ""
+    },
+    {
+      "odoo_tipo_cliente": "Particular",
+      "segmento_aplicacion": "Condiciones fuera de la tabla",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "Clientes particulares — requieren condiciones ad-hoc"
+    },
+    {
+      "odoo_tipo_cliente": "Promotores o Arquitectos o Particular",
+      "segmento_aplicacion": "Condiciones fuera de la tabla",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "No aplicar tabla estándar. Requiere revisión comercial."
+    },
+    {
+      "odoo_tipo_cliente": "Administración Pública",
+      "segmento_aplicacion": "Condiciones fuera de la tabla",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "Organismos públicos — licitaciones y contratos especiales"
+    },
+    {
+      "odoo_tipo_cliente": "Exportación",
+      "segmento_aplicacion": "Condiciones fuera de la tabla",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "Clientes de exportación — tarifa diferente"
+    },
+    {
+      "odoo_tipo_cliente": "Direccional. Nacional",
+      "segmento_aplicacion": "Condiciones fuera de la tabla",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "No aplicar tabla estándar. Requiere regla especial o revisión controlada."
+    },
+    {
+      "odoo_tipo_cliente": "Direccional. Internacional",
+      "segmento_aplicacion": "Condiciones fuera de la tabla",
+      "uso": "ESPECIAL",
+      "estado": "activo",
+      "notas": "No aplicar tabla estándar. Requiere regla especial o revisión controlada."
+    },
+    {
+      "odoo_tipo_cliente": "Tipo de Empresa por Definir",
+      "segmento_aplicacion": "Tipo de Empresa por Definir",
+      "uso": "REVISIÓN",
+      "estado": "activo",
+      "notas": "Segmento pendiente de clasificar. Bloquea validación automática. Generar incidencia de clasificación comercial."
+    },
+    {
+      "odoo_tipo_cliente": "Barcelona",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Dato sucio de Odoo — etiqueta geográfica usada como tipo. Mapeado temporalmente a Almacenes Generalistas."
+    },
+    {
+      "odoo_tipo_cliente": "gamma",
+      "segmento_aplicacion": "Almacenes Generalistas",
+      "uso": "ESTÁNDAR",
+      "estado": "activo",
+      "notas": "Valor legacy en minúsculas, mantener por compatibilidad."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "helpdesk.stage": "El objeto helpdesk.stage no existe",
+  "helpdesk.ticket.stage": "Exists",
+  "stages": [
+    {
+      "id": 1,
+      "name": "Nuevo"
+    },
+    {
+      "id": 2,
+      "name": "En progreso"
+    },
+    {
+      "id": 3,
+      "name": "En espera"
+    },
+    {
+      "id": 4,
+      "name": "Hecho"
+    },
+    {
+      "id": 5,
+      "name": "Cancelado"
+    },
+    {
+      "id": 6,
+      "name": "Rechazado"
+    }
+  ]
+}

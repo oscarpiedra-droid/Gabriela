@@ -1,0 +1,882 @@
+[
+    {
+        "name": "Potencial",
+        "full_name": "Potencial",
+        "id": 4
+    },
+    {
+        "name": "Solicita Muestras",
+        "full_name": "Potencial / Solicita Muestras",
+        "id": 5
+    },
+    {
+        "name": "No llamar más",
+        "full_name": "Potencial / No llamar más",
+        "id": 7
+    },
+    {
+        "name": "Cerrado",
+        "full_name": "Potencial / Cerrado",
+        "id": 8
+    },
+    {
+        "name": "Consume EVA",
+        "full_name": "Potencial / Consume EVA",
+        "id": 10
+    },
+    {
+        "name": "Consume FOAM",
+        "full_name": "Potencial / Consume FOAM",
+        "id": 11
+    },
+    {
+        "name": "Interés en Nosotros",
+        "full_name": "Potencial / Interés en Nosotros",
+        "id": 12
+    },
+    {
+        "name": "No consume Aislamiento",
+        "full_name": "Potencial / No consume Aislamiento",
+        "id": 13
+    },
+    {
+        "name": "Potencial/Empresa cerrada",
+        "full_name": "Potencial/Empresa cerrada",
+        "id": 14
+    },
+    {
+        "name": "EMPRESA CERRADA",
+        "full_name": "EMPRESA CERRADA",
+        "id": 15
+    },
+    {
+        "name": "Potencial/ Demanda muy baja",
+        "full_name": "Potencial/ Demanda muy baja",
+        "id": 16
+    },
+    {
+        "name": "Potencial / Suministrado por su proveedor de tarima",
+        "full_name": "Potencial / Suministrado por su proveedor de tarima",
+        "id": 17
+    },
+    {
+        "name": "Potencial / Delegacion",
+        "full_name": "Potencial / Delegacion",
+        "id": 18
+    },
+    {
+        "name": "CERRADO / SIN UBICACION ",
+        "full_name": "CERRADO / SIN UBICACION ",
+        "id": 19
+    },
+    {
+        "name": "INSTALADOR",
+        "full_name": "INSTALADOR",
+        "id": 21
+    },
+    {
+        "name": "Barcelona",
+        "full_name": "T.C. Construcción / Barcelona",
+        "id": 23
+    },
+    {
+        "name": "Girona",
+        "full_name": "T.C. Construcción / Girona",
+        "id": 26
+    },
+    {
+        "name": "Tarragona",
+        "full_name": "T.C. Construcción / Tarragona",
+        "id": 27
+    },
+    {
+        "name": "Castellón",
+        "full_name": "T.C. Construcción / Castellón",
+        "id": 28
+    },
+    {
+        "name": "Zaragoza",
+        "full_name": "T.C. Construcción / Zaragoza",
+        "id": 29
+    },
+    {
+        "name": "LLeida",
+        "full_name": "T.C. Construcción / LLeida",
+        "id": 30
+    },
+    {
+        "name": "Valencia",
+        "full_name": "T.C. Construcción / Valencia",
+        "id": 31
+    },
+    {
+        "name": "Alicante",
+        "full_name": "T.C. Construcción / Alicante",
+        "id": 32
+    },
+    {
+        "name": "Murcia",
+        "full_name": "T.C. Construcción / Murcia",
+        "id": 33
+    },
+    {
+        "name": "Almería",
+        "full_name": "T.C. Construcción / Almería",
+        "id": 35
+    },
+    {
+        "name": "La Rioja",
+        "full_name": "T.C. Construcción / La Rioja",
+        "id": 38
+    },
+    {
+        "name": "Navarra",
+        "full_name": "T.C. Construcción / Navarra",
+        "id": 39
+    },
+    {
+        "name": "Baleares",
+        "full_name": "T.C. Construcción / Baleares",
+        "id": 40
+    },
+    {
+        "name": "Constructora",
+        "full_name": "Constructora",
+        "id": 41
+    },
+    {
+        "name": "Valencia",
+        "full_name": "Valencia",
+        "id": 42
+    },
+    {
+        "name": "Asturias",
+        "full_name": "Asturias",
+        "id": 43
+    },
+    {
+        "name": "MALLORCA",
+        "full_name": "MALLORCA",
+        "id": 44
+    },
+    {
+        "name": "Barcelona",
+        "full_name": "Barcelona",
+        "id": 45
+    },
+    {
+        "name": "Tarragona",
+        "full_name": "Tarragona",
+        "id": 46
+    },
+    {
+        "name": "Alicante",
+        "full_name": "Alicante",
+        "id": 47
+    },
+    {
+        "name": "Guipuzcoa",
+        "full_name": "Guipuzcoa",
+        "id": 48
+    },
+    {
+        "name": "Vizcaya",
+        "full_name": "Vizcaya",
+        "id": 49
+    },
+    {
+        "name": "Palma de Mallorca",
+        "full_name": "Palma de Mallorca",
+        "id": 50
+    },
+    {
+        "name": "Islas Baleares",
+        "full_name": "Islas Baleares",
+        "id": 51
+    },
+    {
+        "name": "Madrid",
+        "full_name": "Madrid",
+        "id": 52
+    },
+    {
+        "name": "Castellon",
+        "full_name": "Castellon",
+        "id": 54
+    },
+    {
+        "name": "Murcia",
+        "full_name": "Murcia",
+        "id": 55
+    },
+    {
+        "name": "Teruel",
+        "full_name": "Teruel",
+        "id": 56
+    },
+    {
+        "name": "Distribución",
+        "full_name": "Distribución",
+        "id": 57
+    },
+    {
+        "name": "Cantabria",
+        "full_name": "Cantabria",
+        "id": 58
+    },
+    {
+        "name": "Alava",
+        "full_name": "Alava",
+        "id": 60
+    },
+    {
+        "name": "Parquet",
+        "full_name": "Parquet",
+        "id": 61
+    },
+    {
+        "name": "Malaga",
+        "full_name": "Malaga",
+        "id": 62
+    },
+    {
+        "name": "Guipuzcoa",
+        "full_name": "T.C. Construcción / Guipuzcoa",
+        "id": 63
+    },
+    {
+        "name": "Álava",
+        "full_name": "T.C. Construcción / Álava",
+        "id": 66
+    },
+    {
+        "name": "Asturias",
+        "full_name": "T.C. Construcción / Asturias",
+        "id": 67
+    },
+    {
+        "name": "Badajoz",
+        "full_name": "T.C. Construcción / Badajoz",
+        "id": 69
+    },
+    {
+        "name": "Burgos",
+        "full_name": "T.C. Construcción / Burgos",
+        "id": 70
+    },
+    {
+        "name": "Cáceres",
+        "full_name": "T.C. Construcción / Cáceres",
+        "id": 71
+    },
+    {
+        "name": "Cádiz",
+        "full_name": "T.C. Construcción / Cádiz",
+        "id": 72
+    },
+    {
+        "name": "Cantabria",
+        "full_name": "T.C. Construcción / Cantabria",
+        "id": 73
+    },
+    {
+        "name": "Ciudad Real",
+        "full_name": "T.C. Construcción / Ciudad Real",
+        "id": 74
+    },
+    {
+        "name": "Córdoba",
+        "full_name": "T.C. Construcción / Córdoba",
+        "id": 75
+    },
+    {
+        "name": "Cuenca",
+        "full_name": "T.C. Construcción / Cuenca",
+        "id": 76
+    },
+    {
+        "name": "Guadalajara",
+        "full_name": "T.C. Construcción / Guadalajara",
+        "id": 77
+    },
+    {
+        "name": "Huelva",
+        "full_name": "T.C. Construcción / Huelva",
+        "id": 78
+    },
+    {
+        "name": "Huesca",
+        "full_name": "T.C. Construcción / Huesca",
+        "id": 79
+    },
+    {
+        "name": "Islas Baleares",
+        "full_name": "T.C. Construcción / Islas Baleares",
+        "id": 80
+    },
+    {
+        "name": "La Coruña",
+        "full_name": "T.C. Construcción / La Coruña",
+        "id": 81
+    },
+    {
+        "name": "Lugo",
+        "full_name": "T.C. Construcción / Lugo",
+        "id": 84
+    },
+    {
+        "name": "Madrid",
+        "full_name": "T.C. Construcción / Madrid",
+        "id": 85
+    },
+    {
+        "name": "Málaga",
+        "full_name": "T.C. Construcción / Málaga",
+        "id": 86
+    },
+    {
+        "name": "Orense",
+        "full_name": "T.C. Construcción / Orense",
+        "id": 87
+    },
+    {
+        "name": "Pontevedra",
+        "full_name": "T.C. Construcción / Pontevedra",
+        "id": 89
+    },
+    {
+        "name": "Salamanca",
+        "full_name": "T.C. Construcción / Salamanca",
+        "id": 90
+    },
+    {
+        "name": "Sevilla",
+        "full_name": "T.C. Construcción / Sevilla",
+        "id": 93
+    },
+    {
+        "name": "Soria",
+        "full_name": "T.C. Construcción / Soria",
+        "id": 94
+    },
+    {
+        "name": "Teruel",
+        "full_name": "T.C. Construcción / Teruel",
+        "id": 95
+    },
+    {
+        "name": "Toledo",
+        "full_name": "T.C. Construcción / Toledo",
+        "id": 96
+    },
+    {
+        "name": "Vizcaya",
+        "full_name": "T.C. Construcción / Vizcaya",
+        "id": 98
+    },
+    {
+        "name": "Barcelona",
+        "full_name": "T.C. Distribución / Barcelona",
+        "id": 100
+    },
+    {
+        "name": "Girona",
+        "full_name": "T.C. Distribución / Girona",
+        "id": 101
+    },
+    {
+        "name": "Tarragona",
+        "full_name": "T.C. Distribución / Tarragona",
+        "id": 102
+    },
+    {
+        "name": "Castellón",
+        "full_name": "T.C. Distribución / Castellón",
+        "id": 103
+    },
+    {
+        "name": "Zaragoza",
+        "full_name": "T.C. Distribución / Zaragoza",
+        "id": 104
+    },
+    {
+        "name": "LLeida",
+        "full_name": "T.C. Distribución / LLeida",
+        "id": 105
+    },
+    {
+        "name": "Valencia",
+        "full_name": "T.C. Distribución / Valencia",
+        "id": 106
+    },
+    {
+        "name": "Alicante",
+        "full_name": "T.C. Distribución / Alicante",
+        "id": 107
+    },
+    {
+        "name": "Murcia",
+        "full_name": "T.C. Distribución / Murcia",
+        "id": 108
+    },
+    {
+        "name": "Almería",
+        "full_name": "T.C. Distribución / Almería",
+        "id": 110
+    },
+    {
+        "name": "La Rioja",
+        "full_name": "T.C. Distribución / La Rioja",
+        "id": 113
+    },
+    {
+        "name": "Navarra",
+        "full_name": "T.C. Distribución / Navarra",
+        "id": 114
+    },
+    {
+        "name": "Baleares",
+        "full_name": "T.C. Distribución / Baleares",
+        "id": 115
+    },
+    {
+        "name": "Guipuzcoa",
+        "full_name": "T.C. Distribución / Guipuzcoa",
+        "id": 116
+    },
+    {
+        "name": "Álava",
+        "full_name": "T.C. Distribución / Álava",
+        "id": 117
+    },
+    {
+        "name": "Asturias",
+        "full_name": "T.C. Distribución / Asturias",
+        "id": 118
+    },
+    {
+        "name": "Ávila",
+        "full_name": "T.C. Distribución / Ávila",
+        "id": 119
+    },
+    {
+        "name": "Badajoz",
+        "full_name": "T.C. Distribución / Badajoz",
+        "id": 120
+    },
+    {
+        "name": "Burgos",
+        "full_name": "T.C. Distribución / Burgos",
+        "id": 121
+    },
+    {
+        "name": "Cáceres",
+        "full_name": "T.C. Distribución / Cáceres",
+        "id": 122
+    },
+    {
+        "name": "Cádiz",
+        "full_name": "T.C. Distribución / Cádiz",
+        "id": 123
+    },
+    {
+        "name": "Cantabria",
+        "full_name": "T.C. Distribución / Cantabria",
+        "id": 124
+    },
+    {
+        "name": "Ciudad Real",
+        "full_name": "T.C. Distribución / Ciudad Real",
+        "id": 125
+    },
+    {
+        "name": "Córdoba",
+        "full_name": "T.C. Distribución / Córdoba",
+        "id": 126
+    },
+    {
+        "name": "Cuenca",
+        "full_name": "T.C. Distribución / Cuenca",
+        "id": 127
+    },
+    {
+        "name": "Guadalajara",
+        "full_name": "T.C. Distribución / Guadalajara",
+        "id": 128
+    },
+    {
+        "name": "Huelva",
+        "full_name": "T.C. Distribución / Huelva",
+        "id": 129
+    },
+    {
+        "name": "Huesca",
+        "full_name": "T.C. Distribución / Huesca",
+        "id": 130
+    },
+    {
+        "name": "Islas Baleares",
+        "full_name": "T.C. Distribución / Islas Baleares",
+        "id": 131
+    },
+    {
+        "name": "La Coruña",
+        "full_name": "T.C. Distribución / La Coruña",
+        "id": 132
+    },
+    {
+        "name": "Lugo",
+        "full_name": "T.C. Distribución / Lugo",
+        "id": 135
+    },
+    {
+        "name": "Madrid",
+        "full_name": "T.C. Distribución / Madrid",
+        "id": 136
+    },
+    {
+        "name": "Málaga",
+        "full_name": "T.C. Distribución / Málaga",
+        "id": 137
+    },
+    {
+        "name": "Orense",
+        "full_name": "T.C. Distribución / Orense",
+        "id": 138
+    },
+    {
+        "name": "Pontevedra",
+        "full_name": "T.C. Distribución / Pontevedra",
+        "id": 140
+    },
+    {
+        "name": "Salamanca",
+        "full_name": "T.C. Distribución / Salamanca",
+        "id": 141
+    },
+    {
+        "name": "Segovia",
+        "full_name": "T.C. Distribución / Segovia",
+        "id": 143
+    },
+    {
+        "name": "Sevilla",
+        "full_name": "T.C. Distribución / Sevilla",
+        "id": 144
+    },
+    {
+        "name": "Soria",
+        "full_name": "T.C. Distribución / Soria",
+        "id": 145
+    },
+    {
+        "name": "Teruel",
+        "full_name": "T.C. Distribución / Teruel",
+        "id": 146
+    },
+    {
+        "name": "Toledo",
+        "full_name": "T.C. Distribución / Toledo",
+        "id": 147
+    },
+    {
+        "name": "Valladolid",
+        "full_name": "T.C. Distribución / Valladolid",
+        "id": 148
+    },
+    {
+        "name": "Vizcaya",
+        "full_name": "T.C. Distribución / Vizcaya",
+        "id": 149
+    },
+    {
+        "name": "Barcelona",
+        "full_name": "T.C. Parquet / Barcelona",
+        "id": 151
+    },
+    {
+        "name": "Girona",
+        "full_name": "T.C. Parquet / Girona",
+        "id": 152
+    },
+    {
+        "name": "Tarragona",
+        "full_name": "T.C. Parquet / Tarragona",
+        "id": 153
+    },
+    {
+        "name": "Castellón",
+        "full_name": "T.C. Parquet / Castellón",
+        "id": 154
+    },
+    {
+        "name": "Zaragoza",
+        "full_name": "T.C. Parquet / Zaragoza",
+        "id": 155
+    },
+    {
+        "name": "LLeida",
+        "full_name": "T.C. Parquet / LLeida",
+        "id": 156
+    },
+    {
+        "name": "Valencia",
+        "full_name": "T.C. Parquet / Valencia",
+        "id": 157
+    },
+    {
+        "name": "Alicante",
+        "full_name": "T.C. Parquet / Alicante",
+        "id": 158
+    },
+    {
+        "name": "Murcia",
+        "full_name": "T.C. Parquet / Murcia",
+        "id": 159
+    },
+    {
+        "name": "Albacete",
+        "full_name": "T.C. Parquet / Albacete",
+        "id": 160
+    },
+    {
+        "name": "La Rioja",
+        "full_name": "T.C. Parquet / La Rioja",
+        "id": 164
+    },
+    {
+        "name": "Navarra",
+        "full_name": "T.C. Parquet / Navarra",
+        "id": 165
+    },
+    {
+        "name": "Baleares",
+        "full_name": "T.C. Parquet / Baleares",
+        "id": 166
+    },
+    {
+        "name": "Guipuzcoa",
+        "full_name": "T.C. Parquet / Guipuzcoa",
+        "id": 167
+    },
+    {
+        "name": "Álava",
+        "full_name": "T.C. Parquet / Álava",
+        "id": 168
+    },
+    {
+        "name": "Asturias",
+        "full_name": "T.C. Parquet / Asturias",
+        "id": 169
+    },
+    {
+        "name": "Badajoz",
+        "full_name": "T.C. Parquet / Badajoz",
+        "id": 171
+    },
+    {
+        "name": "Burgos",
+        "full_name": "T.C. Parquet / Burgos",
+        "id": 172
+    },
+    {
+        "name": "Cáceres",
+        "full_name": "T.C. Parquet / Cáceres",
+        "id": 173
+    },
+    {
+        "name": "Cantabria",
+        "full_name": "T.C. Parquet / Cantabria",
+        "id": 175
+    },
+    {
+        "name": "Ciudad Real",
+        "full_name": "T.C. Parquet / Ciudad Real",
+        "id": 176
+    },
+    {
+        "name": "Cuenca",
+        "full_name": "T.C. Parquet / Cuenca",
+        "id": 178
+    },
+    {
+        "name": "Guadalajara",
+        "full_name": "T.C. Parquet / Guadalajara",
+        "id": 179
+    },
+    {
+        "name": "Huesca",
+        "full_name": "T.C. Parquet / Huesca",
+        "id": 181
+    },
+    {
+        "name": "Islas Baleares",
+        "full_name": "T.C. Parquet / Islas Baleares",
+        "id": 182
+    },
+    {
+        "name": "La Coruña",
+        "full_name": "T.C. Parquet / La Coruña",
+        "id": 183
+    },
+    {
+        "name": "Lugo",
+        "full_name": "T.C. Parquet / Lugo",
+        "id": 186
+    },
+    {
+        "name": "Madrid",
+        "full_name": "T.C. Parquet / Madrid",
+        "id": 187
+    },
+    {
+        "name": "Orense",
+        "full_name": "T.C. Parquet / Orense",
+        "id": 189
+    },
+    {
+        "name": "Pontevedra",
+        "full_name": "T.C. Parquet / Pontevedra",
+        "id": 191
+    },
+    {
+        "name": "Soria",
+        "full_name": "T.C. Parquet / Soria",
+        "id": 196
+    },
+    {
+        "name": "Teruel",
+        "full_name": "T.C. Parquet / Teruel",
+        "id": 197
+    },
+    {
+        "name": "Toledo",
+        "full_name": "T.C. Parquet / Toledo",
+        "id": 198
+    },
+    {
+        "name": "Vizcaya",
+        "full_name": "T.C. Parquet / Vizcaya",
+        "id": 200
+    },
+    {
+        "name": "Zamora",
+        "full_name": "T.C. Parquet / Zamora",
+        "id": 201
+    },
+    {
+        "name": "Impermeabilización",
+        "full_name": "Impermeabilización",
+        "id": 202
+    },
+    {
+        "name": "Logroño",
+        "full_name": "Logroño",
+        "id": 203
+    },
+    {
+        "name": "Girona",
+        "full_name": "Girona",
+        "id": 204
+    },
+    {
+        "name": "almacen de construccion",
+        "full_name": "almacen de construccion",
+        "id": 205
+    },
+    {
+        "name": "La Coruña",
+        "full_name": "La Coruña",
+        "id": 206
+    },
+    {
+        "name": "Segovia",
+        "full_name": "Segovia",
+        "id": 207
+    },
+    {
+        "name": "Zaragoza",
+        "full_name": "Zaragoza",
+        "id": 208
+    },
+    {
+        "name": "Navarra",
+        "full_name": "Navarra",
+        "id": 209
+    },
+    {
+        "name": "Cuenca",
+        "full_name": "Cuenca",
+        "id": 210
+    },
+    {
+        "name": "Lleida",
+        "full_name": "Lleida",
+        "id": 211
+    },
+    {
+        "name": "Albacete",
+        "full_name": "Albacete",
+        "id": 212
+    },
+    {
+        "name": "Granada",
+        "full_name": "Granada",
+        "id": 213
+    },
+    {
+        "name": "Toledo",
+        "full_name": "Toledo",
+        "id": 214
+    },
+    {
+        "name": "Promotores o Arquitectos o Particular",
+        "full_name": "Promotores o Arquitectos o Particular",
+        "id": 215
+    },
+    {
+        "name": "Caceres",
+        "full_name": "Caceres",
+        "id": 216
+    },
+    {
+        "name": "UTE",
+        "full_name": "UTE",
+        "id": 217
+    },
+    {
+        "name": "Huelva",
+        "full_name": "Huelva",
+        "id": 218
+    },
+    {
+        "name": "Lugo",
+        "full_name": "Lugo",
+        "id": 219
+    },
+    {
+        "name": "Badajoz",
+        "full_name": "Badajoz",
+        "id": 220
+    },
+    {
+        "name": "Burgos",
+        "full_name": "Burgos",
+        "id": 221
+    },
+    {
+        "name": "BigMat",
+        "full_name": "BigMat",
+        "id": 223
+    },
+    {
+        "name": "Guadalajara",
+        "full_name": "Guadalajara",
+        "id": 224
+    },
+    {
+        "name": "GAMMA",
+        "full_name": "GAMMA",
+        "id": 225
+    }
+]

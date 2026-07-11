@@ -1,0 +1,15 @@
+{
+  "n": 10,
+  "lines": [
+    "",
+    "=== SO49803 | base=253.8€ ===",
+    "partner_type : [32, 'Almacén de Parquet. Independiente']",
+    "carrier      : [1, 'Recoge Cliente']",
+    "",
+    "=== LÍNEAS DEL PEDIDO ===",
+    "  [PROD ] [22.005-1] [22.005-1] Air-bur Impact Plus 2mm (30m2 qty=600.0 dto=53.0% sub=253.8€",
+    "",
+    "=== VALIDANDO CONTRA EXCEL 2026 ===",
+    "Import error: No module named 'db.services.commercial_rules'"
+  ]
+}

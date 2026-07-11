@@ -1,0 +1,54 @@
+[
+  [
+    22,
+    "def __init__(self, odoo_service):"
+  ],
+  [
+    26,
+    "def get_pending_orders(self) -> List[Dict]:"
+  ],
+  [
+    68,
+    "def get_ai_suggestions(self, recent_validations: List[Dict]) -> List[Dict]:"
+  ],
+  [
+    91,
+    "def get_client_leak_report(self, days=30) -> List[Dict]:"
+  ],
+  [
+    128,
+    "def get_filtered_clients(self, recent_validations: List[Dict]) -> List[Dict]:"
+  ],
+  [
+    161,
+    "def calculate_fuga_comercial(self, validations: List[Dict] = None, so_ids: List[int] = None) -> float:"
+  ],
+  [
+    184,
+    "def batch_validate_orders(self, so_ids: List[int]) -> List[Dict]:"
+  ],
+  [
+    654,
+    "def notify_salesperson(self, so_id: int, message: str) -> bool:"
+  ],
+  [
+    665,
+    "def validate_order(self, so_id: int) -> Dict:"
+  ],
+  [
+    1007,
+    "def post_chatter_dissonance(self, so_id: int, report: Dict, exception_reason: str = \"\"):"
+  ],
+  [
+    1042,
+    "def evaluar_cliente(self, partner_id: int) -> Dict:"
+  ],
+  [
+    1114,
+    "def apply_portes_correction(self, so_id: int, expected_portes: float):"
+  ],
+  [
+    1129,
+    "def check_so_compliance(self, so_name: str) -> str:"
+  ]
+]

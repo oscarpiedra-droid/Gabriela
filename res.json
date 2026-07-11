@@ -1,0 +1,34 @@
+[
+  {
+    "so_id": 53190,
+    "so_name": "SO49803",
+    "id": 53190,
+    "amount_total": 253.8,
+    "status": "OK",
+    "portes": {
+      "status": "OK",
+      "actual": 0.0,
+      "expected": 0.0,
+      "msg": ""
+    },
+    "discounts": {
+      "status": "OK",
+      "lines": []
+    },
+    "management": {
+      "status": "OK",
+      "msg": ""
+    },
+    "fuga_comercial": 0.0,
+    "notes": "",
+    "homologacion": {
+      "odoo_tipo_cliente": "Almac\u00e9n de Parquet. Independiente",
+      "segmento_aplicacion": "Almacenes e instaladores (GAMA SOUND)",
+      "status": "OK",
+      "mensaje": "OK \u2014 Tipo de cliente homologado correctamente: 'Almac\u00e9n de Parquet. Independiente' \u2192 'Almacenes e instaladores (GAMA SOUND)'.",
+      "winning_rule_id": "HOMOLOGACION_OK_SOUND"
+    },
+    "partner_id_int": 22063,
+    "partner_name": "TRADEDEKOR, S.L."
+  }
+]

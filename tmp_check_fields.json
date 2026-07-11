@@ -1,0 +1,18 @@
+{
+  "all_x_fields": [
+    "x_sale_order_id",
+    "x_picking_id",
+    "x_root_cause",
+    "x_units_affected",
+    "x_final_action",
+    "x_client_conform"
+  ],
+  "custom_fields_check": {
+    "x_root_cause": "text",
+    "x_final_action": "text",
+    "x_client_conform": "boolean",
+    "x_sale_order_id": "many2one",
+    "x_picking_id": "many2one",
+    "x_units_affected": "integer"
+  }
+}
