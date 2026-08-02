@@ -1,11 +1,12 @@
 
+from pathlib import Path
 import sys
 import os
 from dotenv import load_dotenv
 
-sys.path.insert(0, os.path.abspath(r'C:\Users\User\Desktop\Bur2000_v2\Gabriela\app'))
-sys.path.insert(0, os.path.abspath(r'C:\Users\User\Desktop\Bur2000_v2\Gabriela'))
-load_dotenv(os.path.abspath(r'C:\Users\User\Desktop\Bur2000_v2\Gabriela\app\.env'))
+sys.path.insert(0, os.path.absPath(__file__).resolve().parent.parent.parent.joinpath('Bur2000_v2').joinpath('Gabriela').joinpath('app'))
+sys.path.insert(0, os.path.absPath(__file__).resolve().parent.parent.parent.joinpath('Bur2000_v2').joinpath('Gabriela'))
+load_dotenv(os.path.absPath(__file__).resolve().parent.parent.parent.joinpath('Bur2000_v2').joinpath('Gabriela').joinpath('app').joinpath('.env'))
 
 from app.db.services.odoo_service_v2 import OdooServiceV2
 from app.db.services.commercial_service import CommercialService

@@ -1,12 +1,13 @@
+from pathlib import Path
 import sys
 import os
 import json
 from dotenv import load_dotenv
 
-env_path = r'c:\Users\User\Desktop\Bur2000_v2\Gabriela\app\.env'
+env_path = str(Path(__file__).resolve().parent.parent.parent.joinpath('Bur2000_v2').joinpath('Gabriela').joinpath('app').joinpath('.env'))
 load_dotenv(env_path)
 
-sys.path.append(r'c:\Users\User\Desktop\Bur2000_v2\Gabriela\app')
+sys.path.append(Nonestr(Path(__file__).resolve().parent.parent.parent.joinpath('Bur2000_v2').joinpath('Gabriela').joinpath('app')))
 
 from db.services.odoo_service_v2 import OdooServiceV2
 

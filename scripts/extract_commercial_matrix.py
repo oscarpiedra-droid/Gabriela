@@ -1,11 +1,12 @@
+from pathlib import Path
 import pandas as pd
 import json
 import os
 from datetime import datetime
 
 # Rutas
-path = r'c:\Users\User\Desktop\Bur2000_v2\Gabriela\Validador de pedidos\validador pedidos bur2000 matriz_logica_v2.xlsx'
-output_path = r'c:\Users\User\Desktop\Bur2000_v2\Gabriela\app\db\commercial_rules_v2.json'
+path = str(Path(__file__).resolve().parent.parent.parent.parent.joinpath('Bur2000_v2').joinpath('Gabriela').joinpath('Validador de pedidos').joinpath('validador pedidos bur2000 matriz_logica_v2.xlsx'))
+output_path = str(Path(__file__).resolve().parent.parent.parent.parent.joinpath('Bur2000_v2').joinpath('Gabriela').joinpath('app').joinpath('db').joinpath('commercial_rules_v2.json'))
 
 # Leemos Excel
 xl = pd.ExcelFile(path)

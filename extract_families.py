@@ -1,4 +1,5 @@
+from pathlib import Path
 import pandas as pd
-excel_path = r'c:\Users\User\Desktop\Bur2000_v2\Gabriela\v2\propuesta_condiciones_dtos_enero_2026_rangos_limpia.xlsx'
+excel_path = str(Path(__file__).resolve().parent.parent.parent.joinpath('Bur2000_v2').joinpath('Gabriela').joinpath('v2').joinpath('propuesta_condiciones_dtos_enero_2026_rangos_limpia.xlsx'))
 xl = pd.ExcelFile(excel_path)
 print(xl.sheet_names)

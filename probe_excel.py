@@ -1,8 +1,9 @@
 """probe_excel.py — inspecciona el Excel 2026 para un segmento y familia dados."""
+from pathlib import Path
 import sys, os, json
 import pandas as pd
 
-EXCEL = r"C:\Users\User\Desktop\Bur2000_v2\Gabriela\v2\propuesta_condiciones_dtos_enero_2026_rangos_limpia.xlsx"
+EXCEL = str(Path(__file__).resolve().parent.parent.parent.joinpath('Bur2000_v2').joinpath('Gabriela').joinpath('v2').joinpath('propuesta_condiciones_dtos_enero_2026_rangos_limpia.xlsx'))
 df = pd.read_excel(EXCEL, sheet_name="Propuesta_Rangos_2026", engine="openpyxl")
 df = df.fillna("")
 
