@@ -2,9 +2,14 @@ import json
 import os
 import random
 import pandas as pd
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.preprocessing import LabelEncoder
+try:
+    from sklearn.ensemble import RandomForestRegressor
+    from sklearn.preprocessing import LabelEncoder
+except ImportError:
+    RandomForestRegressor = None
+    LabelEncoder = None
 import numpy as np
+
 
 class AnalyticsService:
     def __init__(self):
