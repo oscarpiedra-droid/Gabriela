@@ -17,13 +17,14 @@ warnings.filterwarnings('ignore') # Matplotlib / seaborn compatibility warnings 
 sns.set_theme(style="darkgrid")
 # Update matplotlib parameters according to dark theme
 plt.rcParams.update({
-    "figure.facecolor": bur2000_theme.BUR.background,
-    "axes.facecolor": bur2000_theme.BUR.nav_bg,
-    "text.color": bur2000_theme.BUR.text,
-    "axes.labelcolor": bur2000_theme.BUR.text,
-    "xtick.color": bur2000_theme.BUR.text,
-    "ytick.color": bur2000_theme.BUR.text,
+    "figure.facecolor": getattr(bur2000_theme.BUR, "background", getattr(bur2000_theme.BUR, "bg", "#0F172A")),
+    "axes.facecolor": getattr(bur2000_theme.BUR, "nav_bg", getattr(bur2000_theme.BUR, "primary_dark", "#1E293B")),
+    "text.color": getattr(bur2000_theme.BUR, "text", "#FFFFFF"),
+    "axes.labelcolor": getattr(bur2000_theme.BUR, "text", "#FFFFFF"),
+    "xtick.color": getattr(bur2000_theme.BUR, "text", "#FFFFFF"),
+    "ytick.color": getattr(bur2000_theme.BUR, "text", "#FFFFFF"),
 })
+
 
 class AnalyticsTab(QWidget):
     def __init__(self, parent=None):
